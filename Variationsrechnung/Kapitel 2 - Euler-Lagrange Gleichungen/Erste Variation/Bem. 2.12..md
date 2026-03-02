@@ -1,0 +1,6 @@
+- $\mathcal{F}$ Fréchet differenzierbar an $u_{0} ⇒ \mathcal{F}$ Gâteaux differenzierbar an $u_{0} ⇒$ erste Variation von $\mathcal{F}$ an $u_0$ existiert für jede Richtung $\xi$ (aber nicht umgekehrt: $\mathrm{lim}_{\varepsilon\to o}$ in Gâteaux Ableitung muss in $ξ$ nicht gleichmäßig sein). 
+- $\mathcal{F}$ Fréchet differenzierbar an $u_{0} ⇒ DF(u_{0})(ξ) = dF(u_{0},ξ) = δF(u_{0},ξ) ∀ξ ∈ X$. 
+- erste Variation “ähnlich” zu Gâteaux Ableitung, aber 
+	- $δF(u_0,ξ)$ muss nicht für alle $ξ ∈ X$ existieren; oft z.B. nur für Unterraum $ξ ∈Z \subsetneq X$ 
+	- $ξ \mapsto δF(u_{0},ξ)$ muss nicht stetig und linear sein.
+-   Gâteaux–Differenzierbarkeit in Literatur *nicht* einheitlich definiert.

@@ -1,0 +1,1 @@
+Sei $\delta \mathcal{F}(u_{0},\xi)=0\forall \xi \in X$. Dann ist $u_{0}$ lokale Extremalstelle von $\mathcal{F}$ oder Sattelpunkt (vgl. $x=0$ für $f(x)=x^3$).

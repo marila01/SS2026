@@ -7,5 +7,5 @@ $$
 l(\xi):=2\int_{0}^Tu_{0}\xi d\tau \implies l \in X'
 $$
 $$
-\frac{|\mathcal{F}(u_{0}+\varepsilon \xi)-\mathcal{F}(u_{0})|}{\varepsilon}=\varepsilon \int_{0}^T\xi^2d\tau
+\frac{|\mathcal{F}(u_{0}+\varepsilon \xi)-\mathcal{F}(u_{0})|}{\varepsilon}=\varepsilon \int_{0}^T\xi^2d\tau \stackrel{\varepsilon\to 0}{\to}0
 $$

@@ -11,9 +11,9 @@ Für $\xi \in \tilde{U}$ gilt
 $$
 \phi(\varepsilon)=\mathcal{F}(u_{0}+\varepsilon \xi)=\int_{0}^{b_{1}}\sqrt{ \frac{(1+(u_{0}'+\varepsilon \xi'))^2}{x} }dx.
 $$
-Mit dem Satz von der dominierten Konvergenz (von Lebesgue) gilt:
+Mit dem Satz von der dominierten Konvergenz (von Lebesgue) gilt, da die Ableitungen stetig und abg. Intervall:
 $$
-\delta \mathcal{F}(u_{0},\xi)=\phi'(0)=\int_{0}^{b_{1}} \frac{\partial}{\partial\varepsilon} \sqrt{ \frac{(1+(u_{0}'+\varepsilon \xi'))^2}{x} }_{|\varepsilon=0}dx=\int_{0}^{b_{1}}\frac{u_{0}'(x)}{\sqrt{ x(1+u_{0}'(x)^2) }} \xi'(x)dx \quad \text{existiert.}
+\delta \mathcal{F}(u_{0},\xi)=\phi'(0)=\int_{0}^{b_{1}} \frac{\partial}{\partial\varepsilon} \sqrt{ \frac{(1+(u_{0}'+\varepsilon \xi'))^2}{x} }_{|\varepsilon=0}dx=\int_{0}^{b_{1}}\underbrace{ \frac{u_{0}'(x)}{\sqrt{ x(1+u_{0}'(x)^2) }}}_{=:y(x)} \xi'(x)dx \quad \text{existiert.}
 $$
 **Berechnung der Brachistochrone:**
 Sei $u_{0}$ eine Minimalstelle von $\mathcal{F}$.
@@ -25,6 +25,7 @@ $$
 \xi(x):=\int_{0}^x y(\tau)d\tau-Cx, \quad C=\frac{1}{b_{1}}\int_{0}^{b_{1}}y(x)dx \quad \implies \xi \in \tilde{U}.
 $$
 
+Weil genau so gewählt, dass die RB erfüllt sind.
 Dann folgt wegen [[Bem. 2.3.]] 
 $$
 0=\delta \mathcal{F}(u_{0},\xi)=\int_{0}^{b_{1}}y(x)(y(x)-C)dx=\int_{0}^{b_{1}}y(x)^2-2Cy(x)+C^2dx=\int_{0}^{b_{1}}(y(x)-C)^2dx,

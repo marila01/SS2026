@@ -1,0 +1,2 @@
+Kanidaten für Minimalstellen von $\mathcal{F}$ sind jene $u$, die $\delta \mathcal{F}(u,\xi)=0$ $\forall \xi \in C_{0}^\infty(\Omega;\mathbb{R}^N)$ erfüllen.
+Diese *notwendige* Bedingung kann als Differentialgleichung für $u$ geschrieben werden.

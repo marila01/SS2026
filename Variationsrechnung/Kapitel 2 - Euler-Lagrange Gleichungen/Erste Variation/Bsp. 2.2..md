@@ -2,3 +2,4 @@ $X=\mathbb{R}^n$, $U \subset \mathbb{R}^n$ offen, $u_{0}\in U$, $\mathcal{F}\in 
 $$
 \implies \delta \mathcal{F}(u_{0},\xi)=\sum_{k=1}^n \frac{\partial \mathcal{F}}{\partial u_{k}} \xi_{k}=\nabla \mathcal{F}(u_{0})\cdot \xi.
 $$
+Also die Richtungsableitung von $\mathcal{F}$ in Richtung $\xi$.

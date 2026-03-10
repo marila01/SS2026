@@ -24,12 +24,12 @@ Viele Anwendungsprobleme sind generisch als Variationsprobleme formuliert. Auch 
 Untersuchung von Extremalstellen von Variationsintegralen (oder Energie-Funktionalen): 
 $$u \mapsto F(u) := \int_{\Omega} F(x, u(x), \underbrace{\mathrm{D}u(x)}_{\text{Jacobi Matrix}} ) \mathrm{d}x : U → \mathbb{R} $$
 auf Mengen $$U ⊂ \{u : Ω ⊂ \mathbb{R}^n → \mathbb{R}^N \}.$$
-$F(x, z, p)$ heißt Lagrange Funktion. 
+$F(x, z, p)$ heißt Lagrange Funktion, $z$ ist Platzhalter für den Vektor $u$, $p$ ist Platzhalter für die Matrix $Du$.
 
 **Idee:** Verallgemeinerung von Extremwertmethoden für skalare Funktionen $f : U ⊂ \mathbb{R} → \mathbb{R}$:
 
 - notwendige Bedingungen (analog zu $f' (x_{0}) = 0$ für $f \in C^1$ ) 
-- hinreichende Bedingungen (analog zu $f''(x_{0}) \neq 0$ für $f ∈ C^2$ ). Typischerweise gibt es eine “Lücke” zwischen diesen beiden Bedingungen. 
+- hinreichende Bedingungen (analog zu $f''(x_{0}) \neq 0$ für $f ∈ C^2$ ). Typischerweise gibt es eine “Lücke” zwischen diesen beiden Bedingungen (vgl. $f(x)=x^3$, wo erste Bedingung gilt, zweite nicht und man genauer untersuchen muss, ob Extremum)
 - Existenz globaler Extremwerte (analog zur Annahme der Extremwerte stetiger Funktionen auf Kompakta)
 
 **Definition 1.4.**

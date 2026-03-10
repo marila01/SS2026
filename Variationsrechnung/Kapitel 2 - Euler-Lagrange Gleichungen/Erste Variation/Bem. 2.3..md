@@ -1,4 +1,4 @@
-Sei $U$ topologischer Raum. Hat $\mathcal{F}$ lokales Extremum an $u_{0}$ (mit Umgebung $V$ aus [[Definition 2.1.]], sodass $\{ u_{0} +\varepsilon \xi \quad | \quad |\varepsilon|< \tilde{\varepsilon}_{0}\}\subset V$ für ein $\tilde{\varepsilon}_{0}>0$); dann hat $\phi$ ein lokales Extremum an $\varepsilon=0$.
+Sei $U$ topologischer Raum. Hat $\mathcal{F}$ lokales Extremum an $u_{0}$ (mit Umgebung $V$ aus [[Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erste Variation/Definition 2.1.]], sodass $\{ u_{0} +\varepsilon \xi \quad | \quad |\varepsilon|< \tilde{\varepsilon}_{0}\}\subset V$ für ein $\tilde{\varepsilon}_{0}>0$); dann hat $\phi$ ein lokales Extremum an $\varepsilon=0$.
 $$
 \implies \delta \mathcal{F}(u_{0},\xi s)=0, \quad \text{wenn } \delta \mathcal{F}(u_{0},\xi) \text{ definiert ist.}
 $$

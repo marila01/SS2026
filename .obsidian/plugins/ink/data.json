@@ -4,7 +4,7 @@
     "strokeLimitTipRead": false,
     "lastVersionTipRead": "0.3.4"
   },
-  "customAttachmentFolders": false,
+  "customAttachmentFolders": true,
   "noteAttachmentFolderLocation": "obsidian",
   "notelessAttachmentFolderLocation": "obsidian",
   "writingSubfolder": "Ink/Writing",
@@ -15,7 +15,7 @@
   "writingSmoothing": false,
   "writingLinesWhenLocked": true,
   "writingBackgroundWhenLocked": true,
-  "drawingEnabled": true,
+  "drawingEnabled": false,
   "drawingFrameWhenLocked": false,
   "drawingBackgroundWhenLocked": false
 }

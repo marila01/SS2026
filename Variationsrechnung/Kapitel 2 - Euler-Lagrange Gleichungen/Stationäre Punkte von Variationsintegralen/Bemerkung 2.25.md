@@ -1,0 +1,1 @@
+Das Variationslemma gilt auch für $f \in L^1_{loc}(\Omega)$.

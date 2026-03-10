@@ -1,0 +1,1 @@
+Dieselbe Aussage gilt, wenn man $\bar{B_{1}(0)}$ mit $K$ kompakt und konvex ersetzt.

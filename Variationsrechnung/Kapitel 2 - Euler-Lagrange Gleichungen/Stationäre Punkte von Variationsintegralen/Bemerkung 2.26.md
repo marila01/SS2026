@@ -1,0 +1,1 @@
+Die starke Form der EL-Gl. ist ein quasilineares, üblicherweise partielles (für $n > 1$) Differentialgleichungssystem zweiter Ordnung für $u$.

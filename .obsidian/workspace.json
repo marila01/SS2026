@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "18bddd905e018ed1",
+        "id": "097a369c96eb20ca",
         "type": "tabs",
         "children": [
           {
-            "id": "3d469cee51e71c53",
+            "id": "ccf7825ba41d8649",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erste Variation/2.1 Erste  Variation.md",
-                "mode": "source",
-                "source": false
+                "path": "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erdmannsche Gleichung und Eckenbedingung"
               },
               "icon": "lucide-file",
-              "title": "2.1 Erste  Variation"
+              "title": "Erdmannsche Gleichung und Eckenbedingung"
             }
           }
         ]
@@ -75,7 +73,7 @@
             }
           },
           {
-            "id": "989567d00ad8c457",
+            "id": "711ea402005e38f2",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -105,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erste Variation/2.1 Erste  Variation.md",
+                "file": "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Theorem 2.5 - Existenz für semilineare Gleichungen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise auf 2.1 Erste  Variation"
+              "title": "Rückverweise auf Theorem 2.5 - Existenz für semilineare Gleichungen"
             }
           },
           {
@@ -167,13 +165,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erste Variation/2.1 Erste  Variation.md",
+                "file": "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Theorem 2.5 - Existenz für semilineare Gleichungen.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gliederung von 2.1 Erste  Variation"
+              "title": "Gliederung von Theorem 2.5 - Existenz für semilineare Gleichungen"
             }
           }
         ],
@@ -181,7 +179,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,55 +195,57 @@
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "homepage:Open homepage": false,
-      "obsidian-git:Open Git source control": false,
-      "smart-connections:Smart Connections: Open connections view": false,
-      "smart-connections:Smart Lookup: Open lookup view": false,
-      "smart-connections:Smart Connections: Open random connection": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5fdd881beb0947a2",
+  "active": "ccf7825ba41d8649",
   "lastOpenFiles": [
-    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erste Variation/Bsp. 2.15..md",
-    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erste Variation/2.1 Erste  Variation.md",
-    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erste Variation/Bsp. 2.14..md",
-    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erste Variation/Bsp. 2.13..md",
-    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erste Variation/Bem. 2.12..md",
-    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erste Variation/Definition 2.11..md",
-    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erste Variation/Bem. 2.10..md",
-    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erste Variation/Bem. 2.9..md",
-    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erste Variation/Bsp. 2.8..md",
-    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erste Variation/Definition 2.7..md",
-    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erste Variation/Bsp. 2.6..md",
-    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erste Variation/Bem. 2.5..md",
-    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erste Variation/Definition 2.1..md",
-    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erste Variation/Definition 2.4..md",
-    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erste Variation/Bem. 2.3..md",
-    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erste Variation/Bsp. 2.2..md",
-    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Kapitelübersicht Kapitel 2 - Euler-Lagrange Gleichungen.md",
-    "Variationsrechnung/Kapitel 1 - Einleitung, klassische Beispiele/Kapitelübersicht Kapitel 1 - Einleitung, klassische Beispiele.md",
-    "Variationsrechnung/Kapitel 1 - Einleitung, klassische Beispiele/Bsp.1.6..md",
-    "Pasted image 20260301163116.png",
-    "Variationsrechnung/Kapitel 1 - Einleitung, klassische Beispiele/Bsp. 1.5.md",
-    "Variationsrechnung/Kapitel 1 - Einleitung, klassische Beispiele/Definition 1.4..md",
-    "Variationsrechnung/Kapitel 1 - Einleitung, klassische Beispiele/Bsp. 1.3. Brachistochrone.md",
-    "Pasted image 20260301153537.png",
-    "Variationsrechnung/Kapitel 1 - Einleitung, klassische Beispiele/Bsp. 1.2. Minimalflächen.md",
-    "Variationsrechnung/Kapitel 1 - Einleitung, klassische Beispiele/Bsp.1.1 Isoperimetrisches Problem.md",
-    "Pasted image 20260301125907.png",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erdmannsche Gleichung und Eckenbedingung/Erdmannsche Gleichung und Eckenbedingung.md",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erdmannsche Gleichung und Eckenbedingung/Satz 2.33.md",
     "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Natürliche Randbedingungen/Natürliche Randbedingungen.md",
-    "Variationsrechnung/Kapitel 5 - Existenztheorie für Minimierer/Funktionalanalytische Hilfsmittel/Unterhalbstetigkeit",
-    "Variationsrechnung/Kapitel 5 - Existenztheorie für Minimierer/Funktionalanalytische Hilfsmittel/Schwache Konvergenz",
-    "Variationsrechnung/Kapitel 5 - Existenztheorie für Minimierer/Funktionalanalytische Hilfsmittel/Sobolevräume",
-    "Variationsrechnung/Kapitel 8 - Parameterabhängige Variationsprobleme, Verzweigungstheorie/Katenoid als Beispiel eines Verzweigungsprozesses",
-    "Variationsrechnung/Kapitel 8 - Parameterabhängige Variationsprobleme, Verzweigungstheorie/Funktionalanalytischer Zugang zur Verzweigungstheorie",
-    "Variationsrechnung/Kapitel 8 - Parameterabhängige Variationsprobleme, Verzweigungstheorie/Verzweigungsprobleme in der Variationsrechnung",
-    "Variationsrechnung/Kapitel 7 - Sattelpunktprobleme/Anwendung des MPT - semilineare elliptische PDGl",
-    "Variationsrechnung/Kapitel 7 - Sattelpunktprobleme/Mountain Pass Theorem",
-    "Variationsrechnung/Kapitel 6 - Nichtkonvexe Probleme/Young Maße",
-    "Variationsrechnung/Kapitel 6 - Nichtkonvexe Probleme/Anwendung der Gamma-Konvergenz - Homogenisierung",
-    "Variationsrechnung/Kapitel 4 - Variationsprobleme mit Nebenbedingungen/Kapitel 4 - Variationsprobleme mit Nebenbedingungen.md",
-    "Nichtlineare PDEs/Untitled.canvas",
-    "Mathematical Elasticity/Ciralet/Kapitel 2/Pasted image 20260215122215.png"
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Natürliche Randbedingungen/Beispiel 2.32 - Minimalflächen.md",
+    "Pasted image 20260310123812.png",
+    "Unbenannt.base",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Natürliche Randbedingungen/Beispiel 2.31 - Dirichlet-Integral.md",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Natürliche Randbedingungen/Satz 2.30.md",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Stationäre Punkte von Variationsintegralen/Beispiel 2.29.md",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Stationäre Punkte von Variationsintegralen/Beispiel 2.28.md",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Stationäre Punkte von Variationsintegralen/Beispiel 2.27.md",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Stationäre Punkte von Variationsintegralen/Satz 2.23.md",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Stationäre Punkte von Variationsintegralen/Beispiel 2.18.md",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Stationäre Punkte von Variationsintegralen/Stationäre Punkte von Variationsintegralen.md",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Stationäre Punkte von Variationsintegralen/Definition 2.19.md",
+    "Excalidraw/starkeVSschwacheMinimalstelle.md",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Stationäre Punkte von Variationsintegralen/Bemerkung 2.26.md",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Stationäre Punkte von Variationsintegralen/Bemerkung 2.25.md",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Stationäre Punkte von Variationsintegralen/Lemma 2.24 (Fundamentallemma).md",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Stationäre Punkte von Variationsintegralen/Bemerkung 2.22.md",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Stationäre Punkte von Variationsintegralen/Lemma 2.21.md",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Stationäre Punkte von Variationsintegralen/Bemerkung 2.20.md",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Stationäre Punkte von Variationsintegralen/Beispiel 2.17.md",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Stationäre Punkte von Variationsintegralen/Lemma 2.16.md",
+    "Pasted image 20260309193220.png",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/2.1 Semilineare Gleichungen.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Korollar zu Brouwer.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Theorem 2.5 - Existenz für semilineare Gleichungen.md",
+    "cara2 1.png",
+    "cara2.png",
+    "cara1.png",
+    "Nichtlineare PDEs/Zusatzinfos/Proposition 1.12. Eigenschaften schwacher Konvergenz.md",
+    "Ink/Drawing/2026.3.9 - 17.08pm.drawing",
+    "Ink/Drawing",
+    "Ink",
+    "Excalidraw",
+    "Pasted image 20260309144655.png",
+    "Nichtlineare PDEs/Zusatzinfos",
+    "Variationsrechnung/var-rechn.pdf",
+    "Nichtlineare PDEs/Kapitel 3 Nichtlineare parabolische Gleichungen/3.2 Semilineare Gleichungen",
+    "Nichtlineare PDEs/Kapitel 3 Nichtlineare parabolische Gleichungen/3.1 Sobolevräume in Ort und Zeit",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.4 Drift-Diffusionsgleichungen",
+    "Bilder/Pasted image 20260302145952.png",
+    "Bilder/Pasted image 20260302145920.png",
+    "Bilder/Pasted image 20260301163116.png",
+    "Bilder/Pasted image 20260301153537.png",
+    "Nichtlineare PDEs/Untitled.canvas"
   ]
 }

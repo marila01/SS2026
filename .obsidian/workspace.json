@@ -13,10 +13,10 @@
             "state": {
               "type": "mk-space",
               "state": {
-                "path": "/"
+                "path": "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen"
               },
               "icon": "lucide-file",
-              "title": "SoSe 2026"
+              "title": "2.1 Semilineare Gleichungen"
             }
           }
         ]
@@ -69,11 +69,11 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Lesezeichen"
             }
           },
           {
-            "id": "a0fdd7069af22b45",
+            "id": "8a2a4c3899b799b8",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -198,9 +198,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ccf7825ba41d8649",
+  "active": "b5d12b9a2fff204b",
   "lastOpenFiles": [
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Korollar zu Brouwer.md",
     "Vault.md",
+    "Tags",
     "FANA/FANA.md",
     "FANA",
     "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erdmannsche Gleichung und Eckenbedingung/Erdmannsche Gleichung und Eckenbedingung.md",
@@ -229,7 +231,6 @@
     "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Stationäre Punkte von Variationsintegralen/Lemma 2.16.md",
     "Pasted image 20260309193220.png",
     "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/2.1 Semilineare Gleichungen.md",
-    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Korollar zu Brouwer.md",
     "cara2 1.png",
     "cara2.png",
     "cara1.png",
@@ -241,7 +242,6 @@
     "Nichtlineare PDEs/Zusatzinfos",
     "Variationsrechnung/var-rechn.pdf",
     "Nichtlineare PDEs/Kapitel 3 Nichtlineare parabolische Gleichungen/3.2 Semilineare Gleichungen",
-    "Nichtlineare PDEs/Kapitel 3 Nichtlineare parabolische Gleichungen/3.1 Sobolevräume in Ort und Zeit",
     "Bilder/Pasted image 20260302145952.png",
     "Bilder/Pasted image 20260302145920.png",
     "Bilder/Pasted image 20260301163116.png",

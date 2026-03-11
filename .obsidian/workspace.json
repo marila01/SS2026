@@ -13,10 +13,10 @@
             "state": {
               "type": "mk-space",
               "state": {
-                "path": "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erdmannsche Gleichung und Eckenbedingung"
+                "path": "/"
               },
               "icon": "lucide-file",
-              "title": "Erdmannsche Gleichung und Eckenbedingung"
+              "title": "SoSe 2026"
             }
           }
         ]
@@ -73,7 +73,7 @@
             }
           },
           {
-            "id": "711ea402005e38f2",
+            "id": "a0fdd7069af22b45",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -198,8 +198,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ccf7825ba41d8649",
+  "active": "14b6c974146a335d",
   "lastOpenFiles": [
+    "FANA/FANA.md",
+    "FANA",
     "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erdmannsche Gleichung und Eckenbedingung/Erdmannsche Gleichung und Eckenbedingung.md",
     "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erdmannsche Gleichung und Eckenbedingung/Satz 2.33.md",
     "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Natürliche Randbedingungen/Natürliche Randbedingungen.md",
@@ -231,7 +233,6 @@
     "cara2 1.png",
     "cara2.png",
     "cara1.png",
-    "Nichtlineare PDEs/Zusatzinfos/Proposition 1.12. Eigenschaften schwacher Konvergenz.md",
     "Ink/Drawing/2026.3.9 - 17.08pm.drawing",
     "Ink/Drawing",
     "Ink",
@@ -241,7 +242,6 @@
     "Variationsrechnung/var-rechn.pdf",
     "Nichtlineare PDEs/Kapitel 3 Nichtlineare parabolische Gleichungen/3.2 Semilineare Gleichungen",
     "Nichtlineare PDEs/Kapitel 3 Nichtlineare parabolische Gleichungen/3.1 Sobolevräume in Ort und Zeit",
-    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.4 Drift-Diffusionsgleichungen",
     "Bilder/Pasted image 20260302145952.png",
     "Bilder/Pasted image 20260302145920.png",
     "Bilder/Pasted image 20260301163116.png",

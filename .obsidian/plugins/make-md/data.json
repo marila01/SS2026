@@ -51,9 +51,10 @@
     "//Nichtlineare PDEs/Nichtlineare PDEs/Nichtlineare parabolische Gleichungen/Nichtlineare PDEs/Nichtlineare parabolische Gleichungen/Sobolevräume in Ort und Zeit",
     "//Nichtlineare PDEs/Nichtlineare PDEs/Kapitel 3 Nichtlineare parabolische Gleichungen",
     "//Nichtlineare PDEs/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.2 Monotone semilineare Gleichungen",
-    "//Variationsrechnung",
     "//Variationsrechnung/Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen",
-    "//Variationsrechnung/Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erdmannsche Gleichung und Eckenbedingung"
+    "//Variationsrechnung/Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erdmannsche Gleichung und Eckenbedingung",
+    "//FANA",
+    "//Nichtlineare PDEs"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

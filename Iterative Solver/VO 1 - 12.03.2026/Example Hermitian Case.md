@@ -4,7 +4,7 @@ aliases:
   - "Example: Hermitian Case"
   - "Example: Hermitian Case"
 ---
-# Example: $\lVert A\rVert_2 = \rho(A)$ for $A = A^{H}$
+## Example: $\lVert A\rVert_2 = \rho(A)$ for $A = A^{H}$
 
 Let $\{v_1,\dots,v_n\} \subseteq \mathbb{K}^{n}$ be an orthonormal basis with
 

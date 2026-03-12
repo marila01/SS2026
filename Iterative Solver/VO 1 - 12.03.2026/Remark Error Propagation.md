@@ -2,7 +2,7 @@
 aliases:
   - "Remark: Error Propagation"
 ---
-# Remark: Error Propagation
+## Remark: Error Propagation
 
 The lemma states that $\operatorname{cond}_{\lVert\cdot\rVert}(A)$ is the worst-case factor for error propagation if the computer uses a rounded $\tilde{b}$ instead of the exact $b$, under the idealistic assumption that computer arithmetic is exact.
 

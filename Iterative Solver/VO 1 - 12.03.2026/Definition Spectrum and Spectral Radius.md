@@ -3,7 +3,7 @@ aliases:
   - "Definition: Spectrum and Spectral Radius"
   - "Definition: Spectrum and Spectral Radius"
 ---
-# Def: Spectrum and Spectral Radius
+## Def: Spectrum and Spectral Radius
 
 For a matrix $A \in \mathbb{K}^{n\times n}$, let
 

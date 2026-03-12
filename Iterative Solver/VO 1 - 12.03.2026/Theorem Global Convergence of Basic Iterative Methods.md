@@ -3,7 +3,7 @@ aliases:
   - "Theorem: Global Convergence of Basic Iterative Methods"
   - "Theorem: Global Convergence of Basic Iterative Methods"
 ---
-# Theorem: Global convergence of basic iterative methods
+## Theorem: Global convergence of basic iterative methods
 
 For any matrix $A \in \mathbb{K}^{n\times n}$, the following is equivalent:
 

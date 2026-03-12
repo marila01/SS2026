@@ -4,14 +4,14 @@ aliases:
   - "Lemma: Characterizing the Spectral Radius"
   - "Lemma: Characterizing the Spectral Radius"
 ---
-# Lemma: Characterizing the Spectral Radius
+## Lemma: Characterizing the Spectral Radius
 
 Let $A \in \mathbb{K}^{n\times n}$.
 
 Then,
 
 $$
-\rho(A) = \inf\left\{\lVert A\rVert \mid \lVert\cdot\rVert \text{ is matrix norm induced by norm on } \mathbb{K}^{n}\right\}.
+\rho(A) = \inf\left\{\lVert A\rVert \mid \lVert\cdot\rVert \text{ is matrix norm induced by norm on } \mathbb{C}^{n}\right\}.
 $$
 
 If $\sigma(A) \subseteq \mathbb{K}$, then norms on $\mathbb{K}^{n}$ (instead of $\mathbb{C}^{n}$) suffice.
@@ -36,7 +36,8 @@ $$
 |d| \le \lVert A\rVert.
 $$
 
-If $\sigma(A) \subseteq \mathbb{K}$, then we can choose $x \in \mathbb{K}^{n}\setminus\{0\}$ and the same proof applies. Therefore, norms on $\mathbb{K}^{n}$ suffice in this case.
+If $\sigma(A) \subseteq \mathbb{K}=\mathbb{R}$, then we can choose $x \in \mathbb{R}^{n}\setminus\{0\}$ and the same proof applies. Therefore, norms on $\mathbb{R}^{n}$ suffice in this case.
+
 ###### $\geq:$
 According to linear algebra, $A$ is triangularizable:
 
@@ -49,7 +50,7 @@ U_{11} & \cdots & U_{1n} \\
 \end{pmatrix}
 $$
 
-with $T \in \mathbb{C}^{n\times n}$ regular and $U \in \mathbb{C}^{n\times n}$.
+with $T \in \mathbb{C}^{n\times n}$ regular and $U \in \mathbb{C}^{n\times n}$ upper triangular.
 
 Note that
 
@@ -78,6 +79,7 @@ Define
 $$
 \lVert x\rVert_\varepsilon := \lVert D_\varepsilon^{-1}T^{-1}x\rVert_\infty.
 $$
+($||.||_{\infty}$ is a good one, wecalready know it.)
 
 Note that
 
@@ -147,3 +149,4 @@ $$
 $$
 
 Note that the estimate "$\ge$" is independent of $\sigma(A) \subseteq \mathbb{K}$, since $\lVert\cdot\rVert_\varepsilon$ is of course a norm on $\mathbb{K}^{n}$ if it is a norm on $\mathbb{C}^{n}$.
+Also $C=C(u)$ but we don't care about that.

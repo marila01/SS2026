@@ -1,5 +1,9 @@
-
+---
+aliases:
+  - "Theorem: Banach Fixed Point Theorem"
+---
 ## Banach Fixed Point Theorem
+(as in [[Theorem 2.2 - Fixpunktsatz von Banach]] but more)
 
 Let $X$ be a Banach space, i.e., a complete normed space. Let $0<q<1$ and let $\Phi : X \to X$ satisfy
 
@@ -33,6 +37,10 @@ Moreover, it holds that:
 4. $$
    \lVert x_{k+1}-x_k\rVert \le (1+q)\,\lVert x^{*}-x_k\rVert
    $$
+
+
+(In (4), one could use (3) and get a reliabilty estimate from below. The upper bound is called efficiency estimate - how many iterations do you still need?)
+
 ##### Proof:
 **Step 1 (uniqueness)**
 

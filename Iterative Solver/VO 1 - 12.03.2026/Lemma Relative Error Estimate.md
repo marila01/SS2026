@@ -2,7 +2,7 @@
 aliases:
   - "Lemma: Relative Error Estimate"
 ---
-# Lemma: Relative Error Estimate
+## Lemma: Relative Error Estimate
 
 Let $A \in \mathbb{K}^{n\times n}$ be regular. Let $x, \tilde{x}, b, \tilde{b} \in \mathbb{K}^{n}$ with $b \ne 0$ as well as
 

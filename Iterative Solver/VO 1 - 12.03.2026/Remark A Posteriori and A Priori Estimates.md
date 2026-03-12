@@ -3,7 +3,7 @@ aliases:
   - "Remark: A Posteriori and A Priori Estimates"
   - "Remark: A Posteriori and A Priori Estimates"
 ---
-# Remark
+## Remark
 
 - The first estimate in (iii) and the estimate in (iv) are so-called **a-posteriori error estimates**: We can control the error from above and below from the computed iterates $x_k, x_{k+1}$, even if we do not know the exact solution $x^*$.
 - The estimate

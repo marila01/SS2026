@@ -4,7 +4,7 @@ aliases:
   - "Example: Spectral Norm"
   - "Example: Spectral Norm"
 ---
-# Example: $\lVert A\rVert_2 = \sqrt{\rho(A^{H} A)}$ (so-called spectral norm)
+## Example: $\lVert A\rVert_2 = \sqrt{\rho(A^{H} A)}$ (so-called spectral norm)
 
 Let $\{v_1,\dots,v_n\} \subseteq \mathbb{K}^{n}$ be an orthonormal basis with
 

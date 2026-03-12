@@ -3,7 +3,7 @@ aliases:
   - "Definition: Induced Matrix Norm"
   - "Definition: Induced Matrix Norm"
 ---
-# Definition: Induced Matrix Norm
+## Definition: Induced Matrix Norm
 
 If $\lVert\cdot\rVert$ is a norm on $\mathbb{K}^{n}$, we define the **induced matrix norm**
 

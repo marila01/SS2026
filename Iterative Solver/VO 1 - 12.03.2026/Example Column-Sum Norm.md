@@ -7,19 +7,19 @@ aliases:
 We consider
 
 $$
-\lVert x\rVert_1 := \sum_{j=1}^n |x_j|
+\lVert x\rVert_1 := \sum_{j=1}^{n} |x_j|
 $$
 
-on $\mathbb{K}^n$.
+on $\mathbb{K}^{n}$.
 
 For $A \in \mathbb{K}^{n\times n}$, it follows that
 
 $$
 \lVert Ax\rVert_1
 =
-\sum_{j=1}^n |(Ax)_j|
+\sum_{j=1}^{n} |(Ax)_j|
 =
-\sum_{j=1}^n \left|\sum_{k=1}^n A_{jk}x_k\right|
+\sum_{j=1}^{n} \left|\sum_{k=1}^{n} A_{jk}x_k\right|
 \le
 \sum_k \left(\sum_j |A_{jk}|\right)|x_k|
 \le
@@ -37,7 +37,7 @@ the so-called **column-sum norm** of $A$.
 To see equality, fix the index $k_0 \in \{1,\dots,n\}$ such that
 
 $$
-\sum_{j=1}^n |A_{jk_0}| = \max_k \sum_j |A_{jk}|.
+\sum_{j=1}^{n} |A_{jk_0}| = \max_k \sum_j |A_{jk}|.
 $$
 
 Choose $x = e_{k_0}$, the $k_0$-th unit vector.

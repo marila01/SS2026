@@ -4,7 +4,7 @@ aliases:
 ---
 # Def: Condition Number
 
-Let $A \in \mathbb{K}^{n\times n}$ be regular (or invertible), i.e., $\det A \ne 0$. Let $\lVert\cdot\rVert$ be a norm on $\mathbb{K}^n$.
+Let $A \in \mathbb{K}^{n\times n}$ be regular (or invertible), i.e., $\det A \ne 0$. Let $\lVert\cdot\rVert$ be a norm on $\mathbb{K}^{n}$.
 
 Then,
 

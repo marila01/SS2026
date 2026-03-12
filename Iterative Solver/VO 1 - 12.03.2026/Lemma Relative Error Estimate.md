@@ -4,7 +4,7 @@ aliases:
 ---
 # Lemma: Relative Error Estimate
 
-Let $A \in \mathbb{K}^{n\times n}$ be regular. Let $x, \tilde{x}, b, \tilde{b} \in \mathbb{K}^n$ with $b \ne 0$ as well as
+Let $A \in \mathbb{K}^{n\times n}$ be regular. Let $x, \tilde{x}, b, \tilde{b} \in \mathbb{K}^{n}$ with $b \ne 0$ as well as
 
 $$
 Ax = b, \qquad A\tilde{x} = \tilde{b}.
@@ -19,7 +19,7 @@ $$
 \frac{\lVert b-\tilde{b}\rVert}{\lVert b\rVert}.
 $$
 
-Moreover, this estimate is **sharp**: there exists $b \in \mathbb{K}^n\setminus\{0\}$ such that for all $\varepsilon>0$, there exists $\tilde{b} \in \mathbb{K}^n$ with $\lVert b-\tilde{b}\rVert \le \varepsilon$ such that the estimate holds with equality.
+Moreover, this estimate is **sharp**: there exists $b \in \mathbb{K}^{n}\setminus\{0\}$ such that for all $\varepsilon>0$, there exists $\tilde{b} \in \mathbb{K}^{n}$ with $\lVert b-\tilde{b}\rVert \le \varepsilon$ such that the estimate holds with equality.
 
 ##### Proof:
 Note that
@@ -45,11 +45,11 @@ $$
 
 To see that the estimate is sharp, we argue as follows:
 
-- Choose $x \in \mathbb{K}^n\setminus\{0\}$ and $b := Ax$ such that (because [[Lemma Induced Matrix Norm]])
+- Choose $x \in \mathbb{K}^{n}\setminus\{0\}$ and $b := Ax$ such that (because [[Lemma Induced Matrix Norm]])
   $$
   \lVert A\rVert = \frac{\lVert Ax\rVert}{\lVert x\rVert} = \frac{\lVert b\rVert}{\lVert x\rVert}.
   $$
-- For $\varepsilon > 0$, choose $y_\varepsilon \in \mathbb{K}^n\setminus\{0\}$ with $\lVert y_\varepsilon\rVert = \varepsilon$ such that (because [[Lemma Induced Matrix Norm]])
+- For $\varepsilon > 0$, choose $y_\varepsilon \in \mathbb{K}^{n}\setminus\{0\}$ with $\lVert y_\varepsilon\rVert = \varepsilon$ such that (because [[Lemma Induced Matrix Norm]])
   $$
   \lVert A^{-1}\rVert = \frac{\lVert A^{-1} y_\varepsilon\rVert}{\lVert y_\varepsilon\rVert}.
   $$

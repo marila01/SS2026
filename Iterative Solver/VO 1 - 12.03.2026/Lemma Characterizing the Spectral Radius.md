@@ -11,14 +11,14 @@ Let $A \in \mathbb{K}^{n\times n}$.
 Then,
 
 $$
-\rho(A) = \inf\left\{\lVert A\rVert \mid \lVert\cdot\rVert \text{ is matrix norm induced by norm on } \mathbb{K}^n\right\}.
+\rho(A) = \inf\left\{\lVert A\rVert \mid \lVert\cdot\rVert \text{ is matrix norm induced by norm on } \mathbb{K}^{n}\right\}.
 $$
 
-If $\sigma(A) \subseteq \mathbb{K}$, then norms on $\mathbb{K}^n$ (instead of $\mathbb{C}^n$) suffice.
+If $\sigma(A) \subseteq \mathbb{K}$, then norms on $\mathbb{K}^{n}$ (instead of $\mathbb{C}^{n}$) suffice.
 
 ##### Proof:
 ###### $\leq$:
-Let $\lVert\cdot\rVert$ be a norm on $\mathbb{C}^n$. Let $d \in \sigma(A)$ and $x \in \mathbb{C}^n\setminus\{0\}$ with
+Let $\lVert\cdot\rVert$ be a norm on $\mathbb{C}^{n}$. Let $d \in \sigma(A)$ and $x \in \mathbb{C}^{n}\setminus\{0\}$ with
 
 $$
 Ax = dx.
@@ -36,7 +36,7 @@ $$
 |d| \le \lVert A\rVert.
 $$
 
-If $\sigma(A) \subseteq \mathbb{K}$, then we can choose $x \in \mathbb{K}^n\setminus\{0\}$ and the same proof applies. Therefore, norms on $\mathbb{K}^n$ suffice in this case.
+If $\sigma(A) \subseteq \mathbb{K}$, then we can choose $x \in \mathbb{K}^{n}\setminus\{0\}$ and the same proof applies. Therefore, norms on $\mathbb{K}^{n}$ suffice in this case.
 ###### $\geq:$
 According to linear algebra, $A$ is triangularizable:
 
@@ -59,7 +59,7 @@ $$
 
 since $\sigma(A) = \sigma(U) = \{U_{11},\dots,U_{nn}\}$.
 
-Let $\varepsilon > 0$. We show that there exists a norm $\lVert\cdot\rVert_\varepsilon$ on $\mathbb{C}^n$ with
+Let $\varepsilon > 0$. We show that there exists a norm $\lVert\cdot\rVert_\varepsilon$ on $\mathbb{C}^{n}$ with
 
 $$
 \lVert A\rVert_\varepsilon \le \rho(A) + C\varepsilon
@@ -84,9 +84,9 @@ Note that
 $$
 \lVert A\rVert_\varepsilon
 =
-\sup_{x \in \mathbb{C}^n\setminus\{0\}} \frac{\lVert Ax\rVert_\varepsilon}{\lVert x\rVert_\varepsilon}
+\sup_{x \in \mathbb{C}^{n}\setminus\{0\}} \frac{\lVert Ax\rVert_\varepsilon}{\lVert x\rVert_\varepsilon}
 =
-\sup_{x \in \mathbb{C}^n\setminus\{0\}} \frac{\lVert D_\varepsilon^{-1}T^{-1}Ax\rVert_\infty}{\lVert D_\varepsilon^{-1}T^{-1}x\rVert_\infty}.
+\sup_{x \in \mathbb{C}^{n}\setminus\{0\}} \frac{\lVert D_\varepsilon^{-1}T^{-1}Ax\rVert_\infty}{\lVert D_\varepsilon^{-1}T^{-1}x\rVert_\infty}.
 $$
 
 With the substitution
@@ -100,7 +100,7 @@ $$
 this becomes
 
 $$
-\lVert A\rVert_\varepsilon = \sup_{y \in \mathbb{C}^n\setminus\{0\}} \frac{\lVert D_\varepsilon^{-1}T^{-1}ATD_\varepsilon y\rVert_\infty}{\lVert y\rVert_\infty} = \lVert D_\varepsilon^{-1} U D_\varepsilon\rVert_\infty.
+\lVert A\rVert_\varepsilon = \sup_{y \in \mathbb{C}^{n}\setminus\{0\}} \frac{\lVert D_\varepsilon^{-1}T^{-1}ATD_\varepsilon y\rVert_\infty}{\lVert y\rVert_\infty} = \lVert D_\varepsilon^{-1} U D_\varepsilon\rVert_\infty.
 $$
 
 Note that
@@ -131,7 +131,7 @@ is the so-called row-sum norm.
 Hence,
 
 $$
-\lVert A\rVert_\varepsilon = \lVert D_\varepsilon^{-1} U D_\varepsilon\rVert_\infty = \max_j \left(|U_{jj}| + \sum_{k=j+1}^n \varepsilon^{k-j}|U_{jk}|\right)
+\lVert A\rVert_\varepsilon = \lVert D_\varepsilon^{-1} U D_\varepsilon\rVert_\infty = \max_j \left(|U_{jj}| + \sum_{k=j+1}^{n} \varepsilon^{k-j}|U_{jk}|\right)
 $$
 
 and therefore
@@ -139,11 +139,11 @@ and therefore
 $$
 \lVert A\rVert_\varepsilon
 \le
-\max_j |U_{jj}| + \max_j \sum_{k=j+1}^n \varepsilon^{k-j}|U_{jk}|
+\max_j |U_{jj}| + \max_j \sum_{k=j+1}^{n} \varepsilon^{k-j}|U_{jk}|
 \le
 \rho(A) + \varepsilon \sum_{j<k} |U_{jk}|
 \le
 \rho(A) + C\varepsilon.
 $$
 
-Note that the estimate "$\ge$" is independent of $\sigma(A) \subseteq \mathbb{K}$, since $\lVert\cdot\rVert_\varepsilon$ is of course a norm on $\mathbb{K}^n$ if it is a norm on $\mathbb{C}^n$.
+Note that the estimate "$\ge$" is independent of $\sigma(A) \subseteq \mathbb{K}$, since $\lVert\cdot\rVert_\varepsilon$ is of course a norm on $\mathbb{K}^{n}$ if it is a norm on $\mathbb{C}^{n}$.

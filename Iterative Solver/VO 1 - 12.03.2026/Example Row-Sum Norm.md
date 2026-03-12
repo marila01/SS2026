@@ -10,7 +10,7 @@ $$
 \lVert x\rVert_\infty := \max_{j=1,\dots,n} |x_j|
 $$
 
-on $\mathbb{K}^n$.
+on $\mathbb{K}^{n}$.
 
 For $A \in \mathbb{K}^{n\times n}$, it follows that
 

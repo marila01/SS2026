@@ -11,12 +11,14 @@
             "id": "c453a198e60b262a",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "Iterative Solver/VO 1 - 12.03.2026"
+                "file": "Iterative Solver/VO 1 - 12.03.2026/Theorem Global Convergence of Basic Iterative Methods.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "VO 1 - 12.03.2026"
+              "title": "Theorem Global Convergence of Basic Iterative Methods"
             }
           }
         ]
@@ -200,24 +202,24 @@
   },
   "active": "c453a198e60b262a",
   "lastOpenFiles": [
-    "Iterative Solver/VO 1 - 12.03.2026/VO 1 - 12.03.2026.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Lemma Relative Error Estimate.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Lemma Characterizing the Spectral Radius.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Lemma Induced Matrix Norm.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Recall Triangularization and Hermitian Diagonalization.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Definition Norm.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Example Hermitian Case.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Example Row-Sum Norm.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Definition Spectrum and Spectral Radius.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Example Spectral Norm.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Banach Fixed Point Theorem.md",
     "Iterative Solver/VO 1 - 12.03.2026/Remark A Posteriori and A Priori Estimates.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Theorem Global Convergence of Basic Iterative Methods.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Proof Spectral Radius Lower Bound.md",
+    "Iterative Solver/VO 1 - 12.03.2026/Banach Fixed Point Theorem.md",
+    "Iterative Solver/VO 1 - 12.03.2026/Lemma Characterizing the Spectral Radius.md",
+    "Iterative Solver/VO 1 - 12.03.2026/Example Hermitian Case.md",
+    "Iterative Solver/VO 1 - 12.03.2026/Example Spectral Norm.md",
+    "Iterative Solver/VO 1 - 12.03.2026/Definition Spectrum and Spectral Radius.md",
+    "Iterative Solver/VO 1 - 12.03.2026/Example Row-Sum Norm.md",
+    "Iterative Solver/VO 1 - 12.03.2026/Recall Triangularization and Hermitian Diagonalization.md",
     "Iterative Solver/VO 1 - 12.03.2026/Example Column-Sum Norm.md",
     "Iterative Solver/VO 1 - 12.03.2026/Remark Error Propagation.md",
+    "Iterative Solver/VO 1 - 12.03.2026/Lemma Relative Error Estimate.md",
     "Iterative Solver/VO 1 - 12.03.2026/Definition  Condition Number.md",
+    "Iterative Solver/VO 1 - 12.03.2026/Lemma Induced Matrix Norm.md",
     "Iterative Solver/VO 1 - 12.03.2026/Definition Induced Matrix Norm.md",
+    "Iterative Solver/VO 1 - 12.03.2026/Definition Norm.md",
+    "Iterative Solver/VO 1 - 12.03.2026/VO 1 - 12.03.2026.md",
+    "Iterative Solver/VO 1 - 12.03.2026/Theorem Global Convergence of Basic Iterative Methods.md",
+    "Iterative Solver/VO 1 - 12.03.2026/Proof Spectral Radius Lower Bound.md",
     "Iterative Solver/VO 1 - 12.03.2026/Untitled.md",
     "Iterative Solver/VO 1 - 12.03.2026/00 Index.md",
     "Glo.md",

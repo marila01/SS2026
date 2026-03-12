@@ -8,5 +8,6 @@
   "obsidian-excalidraw-plugin",
   "make-md",
   "highlightr-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "better-export-pdf"
 ]

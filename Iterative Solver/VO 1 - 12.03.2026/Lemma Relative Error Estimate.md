@@ -45,11 +45,11 @@ $$
 
 To see that the estimate is sharp, we argue as follows:
 
-- Choose $x \in \mathbb{K}^n\setminus\{0\}$ and $b := Ax$ such that
+- Choose $x \in \mathbb{K}^n\setminus\{0\}$ and $b := Ax$ such that (because [[Lemma Induced Matrix Norm]])
   $$
   \lVert A\rVert = \frac{\lVert Ax\rVert}{\lVert x\rVert} = \frac{\lVert b\rVert}{\lVert x\rVert}.
   $$
-- For $\varepsilon > 0$, choose $y_\varepsilon \in \mathbb{K}^n\setminus\{0\}$ with $\lVert y_\varepsilon\rVert = \varepsilon$ such that
+- For $\varepsilon > 0$, choose $y_\varepsilon \in \mathbb{K}^n\setminus\{0\}$ with $\lVert y_\varepsilon\rVert = \varepsilon$ such that (because [[Lemma Induced Matrix Norm]])
   $$
   \lVert A^{-1}\rVert = \frac{\lVert A^{-1} y_\varepsilon\rVert}{\lVert y_\varepsilon\rVert}.
   $$
@@ -59,6 +59,8 @@ To see that the estimate is sharp, we argue as follows:
   \qquad\text{and}\qquad
   \tilde{x} := A^{-1}\tilde{b}.
   $$
+
+Then $||b-\tilde{b}||=||y_{\varepsilon}||=\varepsilon$.
 
 This leads to
 
@@ -72,6 +74,10 @@ $$
 \frac{\lVert x-\tilde{x}\rVert}{\lVert x\rVert}
 =
 \frac{\lVert A^{-1}y_\varepsilon\rVert}{\lVert x\rVert}
+=
+\frac{\lVert A^{-1}y_\varepsilon\rVert}{\lVert y_\varepsilon\rVert}
+\cdot
+\frac{\lVert y_\varepsilon\rVert}{\lVert x\rVert}
 =
 \frac{\lVert A^{-1}y_\varepsilon\rVert}{\lVert y_\varepsilon\rVert}
 \cdot
@@ -97,3 +103,12 @@ $$
 $$
 
 and $\lVert b-\tilde{b}\rVert = \lVert y_\varepsilon\rVert = \varepsilon$.
+
+**Interpretation:** 
+- Wir wollen $Ax=b$ lösen.
+- Zahlen werden ja wegen Gleitkommadarstellung abgeschnitten.
+- Das verursacht eine Perturbation von $b$, $\tilde{b}$.  (10^-16 Größenordnung)
+- Da $A$ regulär, gibt es eindeutige Lösungen für $x$, $\tilde{x}$.
+- Wie wirkt sich das auf $x$ relativ aus, wenn alle weiteren Operationen nicht noch mehr Fehler verursachen?
+- Die Konditionszahl gibt dann Kontrolle von oben.
+- Diese Abschätzung ist sinnvoll, da man selbst unter perfekten Bedingungen einen Vektor findet, sodass da Gleichheit herrscht.

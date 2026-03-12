@@ -9,5 +9,6 @@
   "make-md",
   "highlightr-plugin",
   "obsidian-git",
-  "better-export-pdf"
+  "better-export-pdf",
+  "obsidian-style-settings"
 ]

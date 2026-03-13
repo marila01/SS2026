@@ -112,4 +112,26 @@ $$ \begin{align}
 $$
 wobei die ganzen anderen Konstanten an keiner Stelle von der Wahl von $M$ abhängen.
 
-##### Schritt 3: S ist stetig
+##### Schritt 3: S ist stetig in $L^2$
+Wir müssen zeigen, dass für $(v_{k})\subset K$ mit $v_{k}\to v$ stark in $L^2(\Omega)\implies u_{v_{k}}:=S(v_{k})\to S(v)$ stark in $L^2(\Omega)$.
+
+**Strategie:**
+- Zeigen, dass  $(S(v_{k}))$ präkompakt in $L^2(\Omega)$ ist und eine Teilfolge $(S(v_{k_{n}}))$ existiert, die stark in $L^2(\Omega)$ zu einem Grenzwert $\phi \in L^(\Omega)$ konvergiert.
+- $\phi=S(v)$
+- (Gratis) Da man aus jeder Teilfolge von  $(v_{k})$ eine Teil-Teilfolge $(v_{k_{n_{j}}})$ extrahieren kann,  sodass $S(v_{n_{k_{j}}})\to S(v)$ folgt ([[Uryson-Property]]): $S(v_{k})\to S(v)$.
+
+Analog zu zu Schritt 1 finden wir $(u_{v_{k_{n}}})\subset(u_{v_{k}})\subset K$ sodass
+$$
+\begin{cases}
+u_{v_{k_{n}}}\to u^* \text{ schwach in } H^1(\Omega) \\
+u_{v_{k_{n}}} \to u^* \text{ stark in } L^(\Omega)
+\end{cases}
+$$
+Wir müssen zeigen, dass $u^*=S(v)$.
+Wir wissen, dass $\forall w \in H_{0}^1(\Omega):\int_{\Omega}[\nabla u_{v_{k}}^TA\nabla w+cu_{v_{k}}w]dx=\int_{\Omega}f(x,v_{k})wdx$.
+Der Integrand ist in $L^2$ und konvergiert für $k \to \infty$ gegen $\int_{\Omega}\nabla u^*A\nabla w+cu^*wdx$
+
+
+
+
+

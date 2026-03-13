@@ -56,7 +56,8 @@
     "//FANA",
     "//Iterative Solver",
     "//Iterative Solver/Iterative Solver/VO 1",
-    "//Iterative Solver/Iterative Solver/VO 1 - 12.03.2026"
+    "//Nichtlineare PDEs",
+    "//Nichtlineare PDEs/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

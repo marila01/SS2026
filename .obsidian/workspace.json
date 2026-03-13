@@ -25,10 +25,10 @@
             "state": {
               "type": "mk-space",
               "state": {
-                "path": "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen"
+                "path": "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Stationäre Punkte von Variationsintegralen"
               },
               "icon": "lucide-file",
-              "title": "2.1 Semilineare Gleichungen"
+              "title": "Stationäre Punkte von Variationsintegralen"
             }
           },
           {
@@ -221,14 +221,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "58eaedb4e4534697",
+  "active": "71733b8b95134db2",
   "lastOpenFiles": [
-    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/2.1 Semilineare Gleichungen.md",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Natürliche Randbedingungen/Natürliche Randbedingungen.md",
     "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Theorem 2.7 - Regularitaet linearer elliptischer Gleichungen.md",
     "Iterative Solver/VO 1 - 12.03.2026/VO 1 - 12.03.2026.md",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Kapitelübersicht Kapitel 2 - Euler-Lagrange Gleichungen.md",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Erdmannsche Gleichung und Eckenbedingung/Erdmannsche Gleichung und Eckenbedingung.md",
+    "Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Kapitel 2 - Euler-Lagrange Gleichungen.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Korollar 2.8 - Regularitaet elliptischer Gleichungen.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/2.1 Semilineare Gleichungen.md",
     "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Theorem 2.5 - Existenz für semilineare Gleichungen.md",
     "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Definition 2.1..md",
-    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Korollar 2.8.md",
     "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Untitled 1.md",
     "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Lemma- Stetigkeit Caratheodory-Funktion.md",
     "Nichtlineare PDEs/Zusatzinfos/Satz - Lösbarkeit elliptischer linearer Systeme.md",
@@ -253,10 +257,6 @@
     "Iterative Solver/VO 1 - 12.03.2026/Lemma Characterizing the Spectral Radius.md",
     "Iterative Solver/VO 1 - 12.03.2026/Theorem Banach Fixed Point Theorem.md",
     "Iterative Solver/VO 1 - 12.03.2026/Theorem Global Convergence of Basic Iterative Methods.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Remark A Posteriori and A Priori Estimates.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Example Hermitian Case.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Example Spectral Norm.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Definition Spectrum and Spectral Radius.md",
     "Iterative Solver/VO 1 - 12.03.2026",
     "Variationsrechnung/Pasted image 20260310123812.png",
     "Iterative Solver",

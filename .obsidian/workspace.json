@@ -23,14 +23,22 @@
             "id": "58eaedb4e4534697",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Theorem 2.5 - Existenz für semilineare Gleichungen.md",
-                "mode": "source",
-                "source": false
+                "path": "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen"
               },
               "icon": "lucide-file",
-              "title": "Theorem 2.5 - Existenz für semilineare Gleichungen"
+              "title": "2.1 Semilineare Gleichungen"
+            }
+          },
+          {
+            "id": "e55a9a0d77a11830",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Neuer Tab"
             }
           }
         ],
@@ -88,7 +96,7 @@
             }
           },
           {
-            "id": "bb5f6ce51281cdc8",
+            "id": "e8dfbb5cec68e9de",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -213,16 +221,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "58eaedb4e4534697",
+  "active": "830be3baaa6c387c",
   "lastOpenFiles": [
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Theorem 2.7 - Regularitaet linearer elliptischer Gleichungen.md",
+    "Iterative Solver/VO 1 - 12.03.2026/VO 1 - 12.03.2026.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Definition 2.1..md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Korollar 2.8.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Untitled 1.md",
     "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/2.1 Semilineare Gleichungen.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Lemma- Stetigkeit Caratheodory-Funktion.md",
     "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Theorem 2.5 - Existenz für semilineare Gleichungen.md",
+    "Nichtlineare PDEs/Zusatzinfos/Satz - Lösbarkeit elliptischer linearer Systeme.md",
+    "Bilder/Pasted image 20260313122919.png",
+    "Bilder/Pasted image 20260313122905.png",
+    "Bilder/Pasted image 20260313122614.png",
+    "Nichtlineare PDEs/Zusatzinfos/Konvergenz im Maß folgt Teilfolge konvergier ae.md",
+    "Bilder/Pasted image 20260313115754.png",
+    "Bilder/Pasted image 20260313115736.png",
+    "Nichtlineare PDEs/Zusatzinfos/Zusatzinfos.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Nichtlineare elliptische Gleichungen.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.3 Quasilineare Gleichungen/2.3 Quasilineare Gleichungen.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.4 Drift-Diffusionsgleichungen/2.4 Drift-Diffusionsgleichungen.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Kapitel 2 - Inhalt.md",
+    "Bilder/Pasted image 20260313113632.png",
+    "Bilder/Pasted image 20260313113606.png",
     "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Uryson-Property.md",
-    "Pasted image 20260313100603.png",
+    "Bilder/Pasted image 20260313100603.png",
     "Iterative Solver/VO 1 - 12.03.2026/Lemma Induced Matrix Norm.md",
     "Iterative Solver/VO 1 - 12.03.2026/Definition Induced Matrix Norm.md",
     "Iterative Solver/VO 1 - 12.03.2026/Definition Norm.md",
-    "Iterative Solver/VO 1 - 12.03.2026/VO 1 - 12.03.2026.md",
     "Iterative Solver/VO 1 - 12.03.2026/Lemma Characterizing the Spectral Radius.md",
     "Iterative Solver/VO 1 - 12.03.2026/Theorem Banach Fixed Point Theorem.md",
     "Iterative Solver/VO 1 - 12.03.2026/Theorem Global Convergence of Basic Iterative Methods.md",
@@ -230,36 +257,18 @@
     "Iterative Solver/VO 1 - 12.03.2026/Example Hermitian Case.md",
     "Iterative Solver/VO 1 - 12.03.2026/Example Spectral Norm.md",
     "Iterative Solver/VO 1 - 12.03.2026/Definition Spectrum and Spectral Radius.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Example Row-Sum Norm.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Recall Triangularization and Hermitian Diagonalization.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Example Column-Sum Norm.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Remark Error Propagation.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Lemma Relative Error Estimate.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Definition  Condition Number.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Proof Spectral Radius Lower Bound.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Untitled.md",
-    "Iterative Solver/VO 1 - 12.03.2026/00 Index.md",
-    "Glo.md",
-    "Iterative Solver/VO 1/22 Proof - Global Convergence of Basic Iterative Methods.md",
     "Iterative Solver/VO 1 - 12.03.2026",
     "Variationsrechnung/Pasted image 20260310123812.png",
     "Iterative Solver",
     "Variationsrechnung/Pasted image 20260309193220.png",
-    "Nichtlineare PDEs/cara2.png",
     "Tags",
     "FANA",
     "Unbenannt.base",
-    "Nichtlineare PDEs/cara2 1.png",
-    "Nichtlineare PDEs/cara1.png",
     "Ink/Drawing/2026.3.9 - 17.08pm.drawing",
     "Ink/Drawing",
     "Ink",
     "Excalidraw",
-    "Pasted image 20260309144655.png",
     "Nichtlineare PDEs/Zusatzinfos",
-    "Bilder/Pasted image 20260302145952.png",
-    "Bilder/Pasted image 20260302145920.png",
-    "Bilder/Pasted image 20260301163116.png",
     "Nichtlineare PDEs/Untitled.canvas"
   ]
 }

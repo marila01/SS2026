@@ -115,10 +115,12 @@ wobei die ganzen anderen Konstanten an keiner Stelle von der Wahl von $M$ abhän
 ##### Schritt 3: S ist stetig in $L^2$
 Wir müssen zeigen, dass für $(v_{k})\subset K$ mit $v_{k}\to v$ stark in $L^2(\Omega)\implies u_{v_{k}}:=S(v_{k})\to S(v)$ stark in $L^2(\Omega)$.
 
-**Strategie:**
-- Zeigen, dass  $(S(v_{k}))$ präkompakt in $L^2(\Omega)$ ist und eine Teilfolge $(S(v_{k_{n}}))$ existiert, die stark in $L^2(\Omega)$ zu einem Grenzwert $\phi \in L^(\Omega)$ konvergiert.
-- $\phi=S(v)$
-- (Gratis) Da man aus jeder Teilfolge von  $(v_{k})$ eine Teil-Teilfolge $(v_{k_{n_{j}}})$ extrahieren kann,  sodass $S(v_{n_{k_{j}}})\to S(v)$ folgt ([[Uryson-Property]]): $S(v_{k})\to S(v)$.
+
+> [!NOTE] Strategie
+> 
+> -  Zeigen, dass  $(S(v_{k}))$ präkompakt in $L^2(\Omega)$ ist und eine Teilfolge $(S(v_{k_{n}}))$ existiert, die stark in $L^2(\Omega)$ zu einem Grenzwert $\phi \in L^(\Omega)$ konvergiert.
+> - $\phi=S(v)$
+> - (Gratis) Da man aus jeder Teilfolge von  $(v_{k})$ eine Teil-Teilfolge $(v_{k_{n_{j}}})$ extrahieren kann,  sodass $S(v_{n_{k_{j}}})\to S(v)$ folgt ([[Uryson-Property]]): $S(v_{k})\to S(v)$.
 
 Analog zu zu Schritt 1 finden wir $(u_{v_{k_{n}}})\subset(u_{v_{k}})\subset K$ sodass
 $$
@@ -130,6 +132,42 @@ $$
 Wir müssen zeigen, dass $u^*=S(v)$.
 Wir wissen, dass $\forall w \in H_{0}^1(\Omega):\int_{\Omega}[\nabla u_{v_{k}}^TA\nabla w+cu_{v_{k}}w]dx=\int_{\Omega}f(x,v_{k})wdx$.
 Der Integrand ist in $L^2$ und konvergiert für $k \to \infty$ gegen $\int_{\Omega}\nabla u^*A\nabla w+cu^*wdx$
+
+> [!NOTE] Anmerkung:
+> 
+> **Falls** $\int_{\Omega}f(x,v_{k})wdx\to \int_{\Omega}f(x,v)wdx$ erhalten wir
+> $$
+> \forall w\in H_{0}^1(\Omega):\int_{\Omega}\nabla u^*A\nabla +cu^*wdx=\int_{\Omega}f(x,v)wdx
+> $$
+> **Falls** wir zusätzlich wüssten (Übung, wir verwenden, dass der Trace-Operator $\gamma:H^1(\Omega)\to L^2(\Omega)$ stark stetig in $L^2(\Omega)$ w.r.t. schwachen Konvergenz in $H^1(\Omega)$ ist.) , dass $u_{v_{k_{n}}}=g$ auf $\partial \Omega$ $\implies u^*=g$ auf $\partial \Omega$, wüssten wir $S(v)=u^*$
+> und wären somit fertig
+> ![[Pasted image 20260313122614.png]]
+>
+
+Die erste Aussage erhalten wir aus [[Lemma- Stetigkeit Caratheodory-Funktion]]:
+- Wähle $q$ gleich wie im Statement des Satzes, $q \in \mathbb{N}_{*}$.
+- Wähle $r$ sodass $H^1(\Omega)\hookrightarrow L^{qr}(\Omega)$ kompakt.
+- Wähle $c=0$.
+- Da $v_{k}\to v$ schwach in $H^1(\Omega)$ folgt aus der Kompaktheit der Einbettung, dass es eine Teilfolge $(v_{k_{n}})$ gibt, die $v_{k_{n}}\to v$ stark in $L^{qr}(\Omega)$.
+- Wegen dem Lemma folgt $F(v_{k_{n}})\to F(v)$ stark in $L^q(\Omega)$.
+- Daher konvergiert $f(x,v_{k_{n}}(x))\to f(x,v(x))$ stark in $L^q(\Omega)$.
+- Aber $w \in H^1_{0}(\Omega)\hookrightarrow L^{q^*}(\Omega)$, also $w \in L^{q^*}(\Omega)$.
+- Daher konvergiert $\forall w \in H_{0}^1(\Omega):\int_{\Omega}f(x,v_{k_{n}})wdx\to \int_{\Omega}f(x,v)wdx$ stark in $L^q(\Omega)$.
+Damit erfüllt $u$ $\int_{\Omega}\nabla uA\nabla w+cuwdx=\int_{\Omega}f(x,v)wdx$ und löst somit 
+$$
+\begin{cases}
+L(u)=f(x,v(x)) \text{ in } \Omega, \\
+u=g \text{ auf } \partial \Omega
+\end{cases}
+$$
+Da das Problem eindeutig lösbar ist, folgt $u=S(v)$.
+Damit ist, wie in der Strategie beschrieben, $S$ stetig.
+
+###### Schritt 4:
+Wir können [[Theorem 2.3 - Fixpunktsatz von Schauder]] anwenden und erhalten die Existenz von 
+$u \in K$ sodass $S(u)=u$, d.h. $u \in H^1(\Omega)$ löst unser Problem.
+
+
 
 
 

@@ -57,7 +57,9 @@
     "//Iterative Solver",
     "//Iterative Solver/Iterative Solver/VO 1",
     "//Nichtlineare PDEs",
-    "//Nichtlineare PDEs/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen"
+    "//Nichtlineare PDEs/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen",
+    "//Nichtlineare PDEs/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.4 Drift-Diffusionsgleichungen",
+    "//Nichtlineare PDEs/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.3 Quasilineare Gleichungen"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

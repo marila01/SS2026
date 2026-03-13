@@ -166,10 +166,3 @@ Damit ist, wie in der Strategie beschrieben, $S$ stetig.
 ###### Schritt 4:
 Wir können [[Theorem 2.3 - Fixpunktsatz von Schauder]] anwenden und erhalten die Existenz von 
 $u \in K$ sodass $S(u)=u$, d.h. $u \in H^1(\Omega)$ löst unser Problem.
-
-
-
-
-
-
-

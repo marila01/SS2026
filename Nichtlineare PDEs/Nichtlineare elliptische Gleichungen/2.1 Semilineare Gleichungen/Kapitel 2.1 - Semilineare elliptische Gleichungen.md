@@ -1,0 +1,118 @@
+---
+sticker: emoji//2757
+---
+Betrachte die Differentialgleichung
+$$
+L(u)=f(x,u) \quad \text{ in } \Omega, \quad u=g \text{ auf } \partial \Omega.
+$$
+In den folgenden Abschnitten machen wir die folgenden Grundvoraussetzungen. 
+
+Die Menge $\Omega \subset \mathbb{R}^n$ sei ein beschranktes Gebiet mit $\partial \Omega \in C^1$, der Differentialoperator $L(u)$ ist definiert durch
+$$
+L(u)=-\mathrm{div}(A\nabla u)+cu,
+$$
+Wobei $A(x)=(a_{ij}(x))$ eine $(n\times n)-$Matrix und $c(x)$ eine Funktion seien.
+Ferner sei $A$ symmetrisch und elliptisch (bzw. gleichmäßig in  $x$ positiv definit), d.h., es existiert $\alpha >0,$ so dass $\forall \xi \in \mathbb{R}^n,x \in \Omega:\xi^TA(x)\xi\geq \alpha|\xi|^2$.
+Außerdem gelte $a_{ij}\in L^{\infty}(\Omega)$ mit $c\geq 0$ in $\Omega$.
+Die Randfunktion $g$ sei auf $\Omega$ so fortgesetzt, dass $g \in H^1(\Omega)$ gilt. Schließlich sei die Funktion $f$ eine Carathéodory-Funktion:
+
+**Definition 2.1:**
+![[Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Definition 2.1.|Definition 2.1.]]
+
+Unser Ziel ist der Beweis der Existenz (und Eindeutigkeit) von Lösungen davon. Die Idee ist dabei wie folgt. (Im folgenden geben wir eine Motivation, mathematisch rigorose Argumente kommen später.) Wir definieren einen sogenannten Fixpunktoperator. Sei dafür $v$ eine Funktion und u eine Lösung von
+$$
+L(u)=f(x,v) \quad \text{in } \Omega, \quad u=g \quad \text{ auf }\partial \Omega. 
+$$
+Dies ist, für gegebenes $v$, eine lineare Differentialgleichung, und unter bestimmten Voraussetzungen existiert nach dem Lemma von Lax-Milgram eine eindeutige Lösung $u$. Dies definiert die Abbildung $S(v) = u$. Können wir nun beweisen, dass sie einen Fixpunkt $u^∗$ besitzt, d.h. $S(u^*) = u^∗$ , so haben wir die Existenz einer Lösung bewiesen, denn die Differentialgleichung für diesen Fixpunkt lautet
+$$
+L(u^*)=f(x,u^*).
+$$
+Also teilen wir gewissermaßen unser Problem in 2 quasi Sub-Probleme auf (decoupling), nämlich das Lösen einer linearen, elliptischen PDE und dann ein Fixpunktproblem für den Lösungsoperator.
+Unter welchen Voraussetzungen können wir die Existenz eines Fixpunktes folgern? Wir kennen bereits den Fixpunktsatz von Banach:
+
+**Theorem 2.2 (Fixpunktsatz von Banach)**
+![[Theorem 2.2 - Fixpunktsatz von Banach]]
+Unter welchen Bedingungen können wir erwarten, dass der oben definierte Operator $S$ eine Kontraktion ist? Dazu seien $v_1$ und $v_2$ zwei Funktionen und $u_1$ und $u_2$ Lösungen von
+$$
+L(u_{1})=f(x,v_{1}), \quad L(u_{2})=f(x,v_{2}).
+$$
+Wir müssen die Ungleichung
+$$
+||u_{1}-u_{2}||\leq k||v_{1}-v_{2}||
+$$
+für ein $k<1$ beweisen.
+Man kann begründen, dass die rechte Seite der nichtlinearen Gleichung oben in einem gewissen Sinne “klein” sein muss, damit die Forderung $k < 1$ erfüllt werden kann. Dies ist unbefriedigend, da dies bedeutet, dass $f$ quasi Lipschitz mit kleiner Konstante sein muss.
+
+Wir werden daher einen anderen Fixpunktsatz benutzen. (Der Fixpunktsatz von Banach spielt eine größere Rolle bei semilinearen parabolischen Gleichungen, siehe Abschnitt 3.2.)
+
+**Theorem 2.3 (Fixpunktsatz von Schauder)**
+![[Theorem 2.3 - Fixpunktsatz von Schauder]]
+
+Wir erinnern, dass eine Menge $K$ kompakt ist, wenn jede Folge in $K$ eine konvergente Teilfolge in $K$ besitzt. Außerdem ist $K$ konvex, wenn für alle $u,v \in K$ und $\lambda \in[0,1]$ gilt $\lambda u + (1-\lambda)v\in K$.
+
+Beachte, dass der Fixpunktsatz von Schauder nur die Existenz eines Fixpunktes garantiert, aber nicht dessen Eindeutigkeit.
+**Theorem 2.4 (Fixpunktsatz von Brouwer)**
+![[Theorem 2.4 (Fixpunkt von Brower)]]
+![[Korollar zu Brouwer]]
+
+Das erste Existenzresultat lautet wie folgt:
+**Theorem 2.5 (Existenz für semilineare Gleichungen)**
+![[Theorem 2.5 - Existenz für semilineare Gleichungen]]
+
+Wir fragen uns, welche Regularität wir für Lösungen des nichtlinearen Problems erwarten können, und benötigen dafür zunächst folgendes Resultat für lineare Probleme.
+
+**Theorem 2.7 - $W^{2,r}-$Regularität linearer, elliptischer Gleichungen**
+![[Theorem 2.7 - Regularitaet linearer elliptischer Gleichungen]]
+
+Daraus folgert man für nichtlineare Systeme:
+**Korollar 2.8**
+![[Korollar 2.8 - Regularitaet elliptischer Gleichungen]]
+
+Es stellt sich folgende Frage: 
+
+**Können wir erwarten, dass unsere Lösung eine eindeutige Lösung hat?**
+Falls $n=1$
+$$
+\begin{cases}
+-u''=cu \text{ in }[0,1], \\
+u(1)=u(0)=0
+\end{cases}
+$$
+hat unser RWP für $c=(2k\pi)^2$ zwei verschiedene Lösungen, nämlich $u=0$ und $u(x)=\sin(2\pi k x)$.
+
+Aber, falls wir mehr von $f$ fordern, kriegen wir eindeutige Lösungen:
+- Falls $|f(x,\lambda)-f(x,\eta)|\leq L_{0}|\lambda-\eta|$ mit kleinem $L_{0}$, für fast alle $x \in \Omega$.
+- Falls $|f(x,\lambda)|\leq C|\lambda|^\beta+h(x)$ für fast alle $x \in \Omega$, $h \in L^q(\Omega)$, $\beta \in(0,1)$.
+
+Denn, falls $f(x,\lambda)$ Carathéodory ist, $|f(x,\lambda)|\leq C|\lambda|^\beta+h(x)$, $h\in L^q(\Omega)$, $q\in \mathbb{N}_{*}$ kann es für *manche* $\beta$ den Beweis von oben replizieren.
+Die Anforderungen an $f$ haben wir vorallem gebraucht, um zu zeigen, dass $S$ eine Selbstabbildung ist.
+Sei vorläufig $g=0$, betrachte
+$$
+\begin{cases}
+L(u_{v})=f(x,v) \text{ in } \Omega \\
+u_{v}=0 \text{ auf } \partial \Omega
+\end{cases}
+$$
+Wir testen dann gegen $u_{v}\in H_{0}^1(\Omega)$:
+$$
+\int_{\Omega}\nabla u_{v}^T A\nabla u_{v}+cu_{v}^2dx=\int_{\Omega}f(x,v(x))u_{v}dx
+$$
+Es folgt
+$$
+\begin{align}
+\frac{\alpha}{2}\int_{\Omega}|u_{v}|^2dx &\leq \int_{\Omega}f(x,v)u_{v}dx\leq \int_{\Omega}(C|v|^\beta+h)|u_{v}|dx \\
+&\stackrel{\text{Hölder}}{\leq}C||v||_{L^q\beta(\Omega)}^\beta||u_{v}||_{L^p(\Omega)}+||h||_{L^q(\Omega)}||u_{v}||_{L^p(\Omega)} \\
+&\stackrel{\text{Young}}{\leq} \frac{\varepsilon}{2}||u_{v}||^2_{L^p(\Omega)}+\frac{\tilde{C}}{\varepsilon}||v||^{2\beta}_{L^\beta q(\Omega)}+\frac{||h||_{L^q(\Omega)}^2}{\varepsilon} \forall \varepsilon >0 \\
+&\stackrel{H^1(\Omega)\hookrightarrow L^p(\Omega)\text{ stetig}}{\leq} \frac{C_{1}\varepsilon}{2}||u_{v}||^2_{H_{0}^1(\Omega)}+\frac{\tilde{C}}{\varepsilon}||v||^{2\beta}_{L^{\beta q}(\Omega)}+\frac{||h||^2_{L^q(\Omega)}}{\varepsilon}\forall\varepsilon>0 \\
+&\stackrel{\text{falls } H^1(\Omega)\hookrightarrow L^{\beta q}(\Omega)\text{ stetig, Poincaré}}{\leq} \frac{C_{2}\varepsilon}{2}||\nabla u_{v}||^2_{L^2(\Omega)}+\frac{\tilde{C}}{\varepsilon}||v||^{2\beta}_{H^1(\Omega)}+\frac{||h||^2_{L^q(\Omega)}}{\varepsilon} \forall \varepsilon>0
+\end{align}
+$$
+Für geeignete $\varepsilon$ klein genug, also sodass $\frac{C_{2}\varepsilon}{2}=\frac{\alpha}{4}$, erhalten wir
+$$
+\frac{\alpha}{2}\int_{\Omega}|\nabla u_{v}|^2dx\leq \tilde{\tilde{C}}(M^{2\beta}+||h||^2_{L^q(\Omega)})
+$$
+Wegen der Poincaré-Ungleichung erhalten wir:
+$$
+||u_{v}||^2_{H^1(\Omega)}\leq \tilde{\tilde{\tilde{C}}}(M^{2\beta}+||h||^2_{L^q(\Omega)})
+$$
+Jetzt muss man das irgendwie kleiner $M$ kriegen. Das funktioniert für $\beta \in(0,1)$.

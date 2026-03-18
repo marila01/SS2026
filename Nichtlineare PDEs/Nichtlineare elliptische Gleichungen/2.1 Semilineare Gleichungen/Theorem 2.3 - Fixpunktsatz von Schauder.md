@@ -15,7 +15,7 @@ Sei $K_{j} \subset K$ die konvexe Hülle von $\{ x_{1},\dots,x_{N_{j}} \}$ und $
 Definiere $F_{j}:B\to K_{j};F_{j}(x):=\sum_{r=1}^{N_{j}}\lambda_{r}(x)x_{r}$. 
 Das ganze mit der konvexen Hülle machen wir, damit unser Problem gewissermaßen endlichdimensional ist, sodass wir Brouwer anwenden können.
 
-*Behauptung: (wir beweisen das nicht extra)* Man kann $F_{j}$ so konstruieren, dass $||F_{j}(x)-x||\leq \frac{1}{j}$, daher ist $F_{j}$ eine quasi Approximation der Identität mit Wertebereich in $K_{j}$.
+*Behauptung: (siehe [[Aufgabe 1]])* Man kann $F_{j}$ so konstruieren, dass $||F_{j}(x)-x||\leq \frac{1}{j}$, daher ist $F_{j}$ eine quasi Approximation der Identität mit Wertebereich in $K_{j}$.
 
 Da $K$ konvex, gilt $K_{j}\subset K$.
 Dann ist $F_{j}\circ S_{|_{K_{j}}}$ nach Konstruktion eine stetige Abbildung von $K_{j}\to K_{j}$. 

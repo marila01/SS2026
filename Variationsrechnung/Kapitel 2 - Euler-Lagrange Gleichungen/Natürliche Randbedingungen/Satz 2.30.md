@@ -10,10 +10,10 @@ wobei $\nu(x)$ der äußere Normalenvektor im Punkt $x$ auf $\partial \Omega$ is
 Sei $u \in C^2(\bar{\Omega};\mathbb{R}^N)$. Das ist eine wesentliche Einschränkung (vgl. Regularitätsresultate bei PDEs), die in Schritt 2 behandelt wird.
 Sei $\xi(x)=\psi(x)e_{i},\psi \in C^\infty(\bar{\Omega})$. Mit partieller Integration folgt:
 $$
-\begin{align} \\
+\begin{align}
 0 &= \delta \mathcal{F}(u,\xi) \\
 &= \int_{\Omega} \frac{\partial F}{\partial z_{i}}\psi+\sum_{j=1}^n\frac{\partial F}{\partial p_{ij}}\frac{\partial \psi}{\partial x_{j}}  dx \\
-\int_{\Omega}L_{F}(u)_{i}\psi dx+\int_{\partial \Omega}\sum_{j=1}^n\nu_{j}(x)\frac{\partial F}{\partial p_{ij}}(x,u(x),Du(x))dS 
+&=\int_{\Omega}L_{F}(u)_{i}\psi dx+\int_{\partial \Omega}\sum_{j=1}^n\nu_{j}(x)\frac{\partial F}{\partial p_{ij}}(x,u(x),Du(x))dS 
 \end{align} \\
 $$
 Das gilt für alle $\xi \in C^\infty(\bar{\Omega})$, insbesondere für $\xi \in C_{0}^\infty(\Omega)$, also können wir aus [[Satz 2.23]] folgern, dass das erste Integral verschwindet.

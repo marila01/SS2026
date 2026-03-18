@@ -4,7 +4,7 @@
 - typische (analytische) Lösungsstrategien.
 
 Die Vorlesung gliedert sich in folgende Themenbereiche: 
-1. Einleitung mit klassischen bzw. historischen Beispielen; [[Kapitelübersicht Kapitel 1 - Einleitung, klassische Beispiele]]. 
+1. Einleitung mit klassischen bzw. historischen Beispielen; [[Kapitel 1 - Einleitung, klassische Beispiele]]. 
 2. Klassische Theorie der Variationsrechnung (“indirekte Methode”). Hier ist das Ziel, notwendige und hinreichenge Bedingungen an Minimierer (des Variationsproblems) anzugeben; typischerweise sind diese ODEs oder PDEs. In einfachen Fällen (meist für nur ODEs) kann man deren eindeutige Lösbarkeit erkennen oder sie sogar explizit lösen (im Sinne von ‘ausrechnen’); [[Kapitelübersicht Kapitel 2 - Euler-Lagrange Gleichungen]], [[Kapitelübersicht Kapitel 3 - Zweite Variation, Konvexität]], [[Kapitelübersicht Kapitel 4 - Variationsprobleme mit Nebenbedingungen]]. 
 3. Direkte Methode der Variationsrechnung. Hier ist das Ziel, mit funkionalanalytischen Methoden die Existenz und Eindeutigkeit von Minimierern von Variationsproblemen zu beweisen; [[Kapitel 5 - Existenztheorie für Minimierer]]. 
 4. Weiterführende Probleme: In [[Kapitelübersicht Kapitel 6 - Nichtkonvexe Probleme]], [[Kapitelübersicht Kapitel 6 - Nichtkonvexe Probleme]] existiert meist kein Minimierer des betrachteten Variationsproblems. Daher werden Modifikationen des Ausgangsproblems bzw. des Lösungsbegriffs diskutiert, so dass die neuen Probleme (eindeutig) lösbar sind. In [[Kapitelübersicht Kapitel 8 - Parameterabhängige Variationsprobleme, Verzweigungstheorie]] hängen die Variationsprobleme von einem Parameter ab, und es wird die Parameterabhängigkeit der zugehörigen Lösungen betrachtet.
@@ -38,6 +38,3 @@ $F(x, z, p)$ heißt Lagrange Funktion, $z$ ist Platzhalter für den Vektor $u$, 
 ![[Bsp. 1.5]]
 **Bsp.1.6.**
 ![[Bsp.1.6.]]
-
-
-

@@ -20,40 +20,18 @@ and hence $\rho(\Pi^{(GS)})<1$ as well as $\rho(\Pi^{(J)})<1$, i.e., Jacobi and 
 1. We show that $\|\Pi^{(J)}\|_\infty < 1$.
    Recall that
    $$
-
    \Pi^{(J)} = -D^{-1}(A-D),
-
    $$
    i.e.,
    $$
-
-   \Pi^{(J)}_{jk}
-
-   =
-
+   \Pi^{(J)}_{jk} =
    \begin{cases}
-
    0 & \text{if } j=k,\\
-
    \dfrac{A_{jk}}{A_{jj}} & \text{if } j\ne k.
-
    \end{cases}
-
-   $$ $$
-
-   \|\Pi^{(J)}\|_\infty
-
-   =
-
-   \max_{j=1,\dots,n}\sum_{k=1}^n |\Pi^{(J)}_{jk}|
-
-   =
-
-   \max_j \sum_{k\ne j}\left|\frac{A_{jk}}{A_{jj}}\right|
-
-   < 1
-
-   $$
+   $$ $$\|\Pi^{(J)}\|_\infty=\max_{j=1,\dots,n}\sum_{k=1}^n |\Pi^{(J)}_{jk}|= \max_j \sum_{k\ne j}\left|\frac{A_{jk}}{A_{jj}}\right|
+ < 1
+ $$
    by strict diagonal dominance.
 
 For this proof, let us consider $\le$ and $|\,\cdot\,|$ componentwise for all matrix entries.

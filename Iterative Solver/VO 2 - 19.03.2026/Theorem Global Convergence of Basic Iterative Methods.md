@@ -26,7 +26,6 @@ $$
 $$
 
 ---
-
 ##### Proof $(i \Rightarrow ii)$
 
 According to the previous lemma, there exists a norm $\|\cdot\|$ on  $\mathbb{C}^n$ (and hence on $\mathbb{K}^n$) with
@@ -48,7 +47,6 @@ $$
 Hence,  $\Phi(b,\cdot) : \mathbb{K}^n \to \mathbb{K}^n$  satisfies Banach's fixed point theorem.
 
 ---
-
 ##### Proof $(ii \Rightarrow i)$ for  $\mathbb{K} = \mathbb{C}$
 
 Let  $b \in \mathbb{C}^n$, choose $x^*$ accordingly.
@@ -75,12 +73,12 @@ x^* - x_1
 =
 M(x^* - x_0)
 =
-\lambda \underbrace{\frac{x^* - x_0}{v}}_{=\,v}.
+\lambda(x^*-x_{0})=-\lambda v.
 $$
 
 Hence
 $$
-x^* - x_k = \lambda^k v
+x^* - x_k = (-\lambda)^k v
 $$
 by induction.
 
@@ -96,20 +94,17 @@ $$
 \to 0
 \qquad \text{by (ii).}
 $$
-
 Therefore,
 $$
 \rho(M) < 1.
 $$
-
 ---
-
 ##### Proof of $(ii)$ for  $\mathbb{K} = \mathbb{R} \Rightarrow (ii)$ for $\mathbb{K} = \mathbb{C}$
 Note that the previous argument cannot be applied to prove (i), since
 $$
 \lambda \notin \mathbb{R} \text{ in general.}
 $$
-
+(Zu kleiner Allquantor :( )
 Hence, we argue differently and suppose that (ii) holds for  $\mathbb{K} = \mathbb{R}$.
 
 Note that
@@ -121,14 +116,11 @@ for all $x \in \mathbb{C}^n$, since $M \in \mathbb{R}^{n\times n}$!
 Let $b \in \mathbb{C}^n$.
 
 Apply (ii) for $\operatorname{Re} b, \operatorname{Im} b \in \mathbb{R}^n$.
-
 Obtain $x^* \in \mathbb{C}^n$ s.t. (ii) holds for $\operatorname{Re} b, \operatorname{Re} x^*$ and $\operatorname{Im} b, \operatorname{Im} x^*$.
-
 Let $x_0 \in \mathbb{C}^n$,
 $$
 x_{k+1} := \Phi(b,x_k) = Mx_k + b.
 $$
-
 Then,
 $$
 \operatorname{Re} x_{k+1} = M(\operatorname{Re} x_k) + \operatorname{Re} b \to \operatorname{Re} x^*
@@ -137,11 +129,9 @@ and
 $$
 \operatorname{Im} x_{k+1} = M(\operatorname{Im} x_k) + \operatorname{Im} b \to \operatorname{Im} x^*.
 $$
-
 Hence,
 $$
 x_{k+1} \to x^* \text{ in } \mathbb{C}^n,
 $$
 so that (ii) holds for $\mathbb{C}$.
-
 Now, (i) follows.

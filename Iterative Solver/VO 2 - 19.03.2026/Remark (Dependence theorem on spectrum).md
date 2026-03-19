@@ -1,0 +1,1 @@
+Note that the theorem proves convergence of the iterations without the need to know $\sigma(A)$, but only by knowledge of simple algebraic properties. Moreover, we can use, e.g., $\|x_{i+1}-x_i\|_\infty$ to control the iteration error / solver error.

@@ -1,0 +1,1 @@
+If $A \in \mathbb{K}^{n \times n}$ is strictly diagonal dominant, then the Jacobi and Gauss-Seidel iteration are well defined (since $A_{jj} \ne 0$).

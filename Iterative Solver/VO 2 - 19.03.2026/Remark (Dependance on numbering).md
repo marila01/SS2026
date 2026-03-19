@@ -1,0 +1,1 @@
+Richardson and Jacobi iteration are independent of the numbering of the unknowns, whereas (forward/backward) Gauss-Seidel depends on the numbering, i.e., different numbering leads to different schemes and hence different iterates.

@@ -6,12 +6,10 @@ We seek $x^* \in \mathbb{K}^n$ with
 $$
 Ax^* = b.
 $$
-
-Note that
+Note that $\forall \lambda \in \mathbb{K}:$
 $$
 -\lambda A x^* + \lambda b = 0.
 $$
-
 Hence, consider
 $$
 \Phi(b,x) := (I-\lambda A)x + \lambda b
@@ -23,4 +21,4 @@ M := I-\lambda A,
 $$
 and $b-Ax$ the so-called residual.
 
-Known: iteration converges if $\rho(M) < 1$.
+**KNOWN**: iteration converges if $\rho(M) < 1$.

@@ -1,3 +1,8 @@
+---
+aliases:
+  - "Def.: Consistency"
+  - Convergence
+---
 The linear fixed point method is
 - **consistent**, if
   $$

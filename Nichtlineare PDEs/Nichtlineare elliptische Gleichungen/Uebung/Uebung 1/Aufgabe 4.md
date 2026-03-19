@@ -1,3 +1,6 @@
+---
+sticker: emoji//1f449
+---
 Prove the claim on Remark (i) on page 17 of the lecture notes:
 If $|f(x,\lambda)-f(x,\eta)|\leq L_{0}|\lambda-\eta|$ for almost every $x \in \Omega$, $\lambda,\eta \in \mathbb{R}$ and $L_{0}$ is small enough, then the solution is unique.
 

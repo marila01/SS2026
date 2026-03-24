@@ -1,7 +1,7 @@
 Let $\Omega \subset \mathbb{R}^n$ be open, bounded with Lipschitz boundary. Prove that if $F \in C^1(\mathbb{R})$ with $F'\in L^\infty(\mathbb{R})$, and $u \in W^{1,p}(\Omega),1<p<+\infty$, then $F \circ u \in W^{1,p}(\Omega)$ and $F'(u)\nabla u=\nabla(F\circ u)$.
 Where does the proof fail for unbounded $\Omega$? 
 Can you adapt the assumptions on $F$ to make the proof work?
-wo 
+
 ##### Proof:
 Let $x \in \Omega$. Then (from the mean value theorem), we deduce
 $$
@@ -10,7 +10,7 @@ $$
 which is integrable, because $\Omega$ is bounded and $u \in L^p(\Omega)$, so $F\circ u \in L^p(\Omega)$ and also $F \circ u \in L^1_{loc}(\Omega)$, because $\lambda(\Omega)<\infty$.
 
 We also know, that $F'(u)\nabla u\in L^p(\Omega)\cap L^1_{loc}(\Omega)$, because
-$\forall x \in \Omega: ||F'(u(x))\nabla u(x)<|^p=|F'(u(x))|^p||\nabla u(x)||^p\leq||F'||_{\infty}^p|\nabla u(x)|^p.$
+$\forall x \in \Omega: ||F'(u(x))\nabla u(x)||^p\leq|F'(u(x))|^p||\nabla u(x)||^p\leq||F'||_{\infty}^p||\nabla u(x)||^p.$
 
 We know that $\exists u_{n} \in C^\infty(\bar{\Omega})$ with $u_{n}\to u$ in $W^{1,p}(\Omega)$ because $C^\infty(\bar{\Omega})$ lies densely in $W^{1,p}(\Omega)$
 It holds, that

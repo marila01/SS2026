@@ -22,7 +22,7 @@ G := D,\qquad
 
 H := -(A-D),\qquad
 
-\Pi := G^{-1}H = -D^{-1}(A-D),\qquad
+M := G^{-1}H = -D^{-1}(A-D),\qquad
 
 N := G^{-1} = D^{-1}.
 

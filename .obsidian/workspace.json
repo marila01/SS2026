@@ -8,47 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c453a198e60b262a",
-            "type": "leaf",
-            "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "Iterative Solver/VO 1 - 12.03.2026"
-              },
-              "icon": "lucide-file",
-              "title": "VO 1 - 12.03.2026"
-            }
-          },
-          {
-            "id": "58eaedb4e4534697",
+            "id": "89d57c17af30ace8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 1/Aufgabe 1.md",
+                "file": "Iterative Solver/VO 2 - 19.03.2026/VO2 - 19.03.2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aufgabe 1"
+              "title": "VO2 - 19.03.2026"
             }
           },
           {
-            "id": "e55a9a0d77a11830",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 1/Aufgabe 4.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Aufgabe 4"
-            }
-          },
-          {
-            "id": "d0d37fe3bd996e2e",
+            "id": "15828ec2ef9a3a04",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -60,101 +34,9 @@
               "icon": "lucide-file",
               "title": "Aufgabe 5"
             }
-          },
-          {
-            "id": "174babdc3ebbccf5",
-            "type": "leaf",
-            "state": {
-              "type": "mk-space",
-              "state": {
-                "path": "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen"
-              },
-              "icon": "lucide-file",
-              "title": "2.1 Semilineare Gleichungen"
-            }
-          },
-          {
-            "id": "89d57c17af30ace8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Iterative Solver/VO 2 - 19.03.2026/Def. Consistency, Convergence.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Def. Consistency, Convergence"
-            }
-          },
-          {
-            "id": "06123b89ddc1b0b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Iterative Solver/VO 1 - 12.03.2026/VO1 - 12.03.2026.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "VO1 - 12.03.2026"
-            }
-          },
-          {
-            "id": "683ac452bbe458ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Iterative Solver/VO 2 - 19.03.2026/VO2 - 19.03.2026.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "VO2 - 19.03.2026"
-            }
-          },
-          {
-            "id": "f8031180df2c8e3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Iterative Solver/VO 2 - 19.03.2026/VO2 - 19.03.2026.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "VO2 - 19.03.2026"
-            }
-          },
-          {
-            "id": "e94becffd72e8c12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Iterative Solver/VO 2 - 19.03.2026/Remark (convergence speed linear iterations).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Remark (convergence speed linear iterations)"
-            }
-          },
-          {
-            "id": "367959c4b129453d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Neuer Tab"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -208,7 +90,7 @@
             }
           },
           {
-            "id": "1ac317ff37379ea3",
+            "id": "97cffee6666722df",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -333,42 +215,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "89d57c17af30ace8",
+  "active": "15828ec2ef9a3a04",
   "lastOpenFiles": [
-    "Iterative Solver/VO 2 - 19.03.2026/Theorem (Gelfand).md",
-    "Pasted image 20260319153954.png",
-    "Iterative Solver/VO 2 - 19.03.2026/Remark (spectral radius bounds error contraction).md",
-    "Iterative Solver/VO 2 - 19.03.2026/Remark (damped RIchardson).md",
-    "Iterative Solver/VO 2 - 19.03.2026/Remark (convergence speed linear iterations).md",
-    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/2.1 Semilineare Gleichungen.md",
-    "Iterative Solver/VO 2 - 19.03.2026/Corollary (damped Richardson).md",
-    "Pasted image 20260317140110.png",
-    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 1/Aufgabe 2.md",
     "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 1/Aufgabe 4.md",
-    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung.md",
-    "Iterative Solver/VO 2 - 19.03.2026/Remark (global convergence theorem).md",
-    "Iterative Solver/VO 2 - 19.03.2026/Proposition (convergence of damped Richardson iteration).md",
-    "Iterative Solver/VO 2 - 19.03.2026/Example (damped Richardson iteration).md",
-    "Iterative Solver/VO 2 - 19.03.2026/Theorem Global Convergence of Basic Iterative Methods.md",
-    "Iterative Solver/VO 2 - 19.03.2026/VO2 - 19.03.2026.md",
-    "Iterative Solver/VO 2 - 19.03.2026/Theorem (Jacobi and Gauss-Seidel for SDD-matrices).md",
-    "Iterative Solver/VO 2 - 19.03.2026/Def. Splitting Method.md",
-    "Iterative Solver/VO 2 - 19.03.2026/Remark (Consistency, Convergence).md",
-    "Iterative Solver/VO 2 - 19.03.2026/Corollary (A transposed diagonal dominant).md",
-    "Iterative Solver/VO 2 - 19.03.2026/Splitting Methods.md",
-    "Iterative Solver/VO 2 - 19.03.2026/Remark (Dependance on numbering).md",
-    "Iterative Solver/VO 2 - 19.03.2026/Example (backward Gauss-Seidel iteration).md",
-    "Iterative Solver/VO 2 - 19.03.2026/Example ((forward) Gauss-Seidel iteration).md",
-    "Iterative Solver/VO 2 - 19.03.2026/Remark (Splitting Methods).md",
-    "Iterative Solver/VO 2 - 19.03.2026/Remark (Dependence theorem on spectrum).md",
-    "Iterative Solver/VO 2 - 19.03.2026/Lemma (Neumann Series).md",
-    "Iterative Solver/VO 2 - 19.03.2026",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 1/Aufgabe 2.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 1/Aufgabe 1.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 1/Aufgabe 5.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 1/Aufgabe 3.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Nichtlineare elliptische Gleichungen.md",
+    "Nichtlineare PDEs/Nichtlineare PDEs.md",
+    "Nichtlineare PDEs/Inhalt.md",
+    "Fractional Sobolev Spaces/Kapitel 2.md",
+    "Fractional Sobolev Spaces/Fractional Sobolev Spaces.md",
+    "Fractional Sobolev Spaces",
     "Unbenannt.base",
+    "Bilder/Pasted image 20260317140110.png",
+    "Bilder/Pasted image 20260317140521.png",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Kapitel 2.1 - Semilineare elliptische Gleichungen.md",
+    "Untitled.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/2.1 Semilineare Gleichungen.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.2 Monotone semilineare Gleichungen/Semilineare Elliptische Gleichungen.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.2 Monotone semilineare Gleichungen/Theorem 2.11 (Existenz und Eindeutigkeit für monotone semilineare Gleichungen).md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.2 Monotone semilineare Gleichungen/Theorem 2.12 (Fixpunktsatz von Leray-Schauder).md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.2 Monotone semilineare Gleichungen/2.2 Monotone semilineare Gleichungen.md",
+    "Iterative Solver/VO 2 - 19.03.2026/Theorem (Jacobi and Gauss-Seidel for SDD-matrices).md",
+    "Iterative Solver/VO 2 - 19.03.2026/Untitled.md",
+    "Iterative Solver/VO 2 - 19.03.2026/VO2 - 19.03.2026.md",
+    "Iterative Solver/VO 2 - 19.03.2026/Lemma (Neumann Series).md",
+    "Iterative Solver/VO 2 - 19.03.2026/Remark (Consistency, Convergence).md",
+    "Iterative Solver/VO 2 - 19.03.2026/Example (Jacobi iteration).md",
+    "Iterative Solver/VO 2 - 19.03.2026/Def. Splitting Method.md",
+    "Iterative Solver/VO 2 - 19.03.2026/Lemma (Characterization of Consistency,Convergence).md",
+    "Iterative Solver/VO 2 - 19.03.2026/Remark (Splitting Methods).md",
+    "Bilder/Pasted image 20260319153954.png",
+    "Iterative Solver/VO 2 - 19.03.2026",
     "Nichtlineare PDEs/cara1.png",
-    "Pasted image 20260317162957.png",
-    "Pasted image 20260317162711.png",
-    "Pasted image 20260317154409.png",
-    "Pasted image 20260317140521.png",
+    "Bilder/Pasted image 20260317162957.png",
+    "Bilder/Pasted image 20260317162711.png",
+    "Bilder/Pasted image 20260317154409.png",
     "Bilder/Pasted image 20260316200851.png",
     "Bilder/Pasted image 20260316200838.png",
     "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 1",
@@ -379,7 +263,6 @@
     "Tags",
     "FANA",
     "Ink/Drawing/2026.3.9 - 17.08pm.drawing",
-    "Ink/Drawing",
     "Nichtlineare PDEs/Untitled.canvas"
   ]
 }

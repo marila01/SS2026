@@ -33,23 +33,20 @@ $$
 
 Using upper indices $x^k := x_k$ for the iteration index and lower indices for the coefficients, this can explicitly be written as
 $$
-
 x_i^{k+1}
-
+=
+\frac{1}{A_{ii}}
+\left(
+b_i - \sum_{j=1,i\neq j}^n A_{ij}x_j^k
+\right)
 =
 
 x_i^k
-
 +
-
 \frac{1}{A_{ii}}
-
 \left(
-
 b_i - \sum_{j=1}^n A_{ij}x_j^k
-
 \right)
-
 \qquad \text{for all } i=1,\dots,n.
-
 $$
+$G$ has more information about $A$ than $G$ from the Richardson-Iteration. Therefore, one should expect it to be better.

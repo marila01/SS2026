@@ -4,8 +4,6 @@ aliases:
   - "Lemma: Characterizing the Spectral Radius"
   - "Lemma: Characterizing the Spectral Radius"
 ---
-## Lemma: Characterizing the Spectral Radius
-
 Let $A \in \mathbb{K}^{n\times n}$.
 
 Then,

@@ -2,8 +2,6 @@
 aliases:
   - "Example: Row-Sum Norm"
 ---
-## Example: $\lVert\cdot\rVert_\infty$ induces the row-sum norm
-
 We consider
 
 $$

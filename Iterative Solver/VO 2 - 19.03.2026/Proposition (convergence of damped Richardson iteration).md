@@ -66,4 +66,4 @@ $$
 \rho(I-\lambda A) < 1
 \qquad \text{for all } 0 < \lambda \le \lambda_0.
 $$
-The rest of the claims follow from the convergence theorem.
+The rest of the claims follow from the convergence theorem ([[Theorem Global Convergence of Basic Iterative Methods]]).

@@ -2,8 +2,6 @@
 aliases:
   - "Lemma: Induced Matrix Norm"
 ---
-## Lemma: Induced Matrix Norm
-
 If $\lVert\cdot\rVert$ is a norm on $\mathbb{K}^{n}$, then the induced matrix norm is indeed a norm on $\mathbb{K}^{n\times n}$.
 
 For $A,B \in \mathbb{K}^{n\times n}$ and $x \in \mathbb{K}^{n}$, there hold

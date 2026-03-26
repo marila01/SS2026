@@ -28,7 +28,7 @@ $$
 ---
 ##### Proof $(i \Rightarrow ii)$
 
-According to the previous lemma, there exists a norm $\|\cdot\|$ on  $\mathbb{C}^n$ (and hence on $\mathbb{K}^n$) with
+According to the previous lemma ([[Lemma Characterizing the Spectral Radius]]), there exists a norm $\|\cdot\|$ on  $\mathbb{C}^n$ (and hence on $\mathbb{K}^n$) with
 $$
 \|M\| = q < 1.
 $$
@@ -44,7 +44,7 @@ $$
 q\|x-y\|.
 $$
 
-Hence,  $\Phi(b,\cdot) : \mathbb{K}^n \to \mathbb{K}^n$  satisfies Banach's fixed point theorem.
+Hence,  $\Phi(b,\cdot) : \mathbb{K}^n \to \mathbb{K}^n$  satisfies Banach's fixed point theorem ([[Theorem Banach Fixed Point Theorem]]).
 
 ---
 ##### Proof $(ii \Rightarrow i)$ for  $\mathbb{K} = \mathbb{C}$

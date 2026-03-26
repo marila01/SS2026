@@ -4,20 +4,15 @@ aliases:
   - "Example: Spectral Norm"
   - "Example: Spectral Norm"
 ---
-## Example: $\lVert A\rVert_2 = \sqrt{\rho(A^{H} A)}$ (so-called spectral norm)
-
 Let $\{v_1,\dots,v_n\} \subseteq \mathbb{K}^{n}$ be an orthonormal basis with
-
 $$
 A^{H} A v_j = d_j v_j
 $$
-
 and
 
 $$
 |d_1| \le \cdots \le |d_n| = \rho(A^{H} A).
 $$
-
 Write
 
 $$

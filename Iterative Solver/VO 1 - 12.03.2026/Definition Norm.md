@@ -2,8 +2,6 @@
 aliases:
   - "Definition: Norm"
 ---
-## Definition: Norm
-
 A mapping $\lVert\cdot\rVert : X \to \mathbb{R}$ on a vector space $X$ over $\mathbb{K} \in \{\mathbb{R}, \mathbb{C}\}$ is a **norm**, if the following three conditions hold:
 
 1. $\forall x \in X : \bigl(\lVert x\rVert = 0 \Rightarrow x = 0\bigr)$  

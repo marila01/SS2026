@@ -2,8 +2,6 @@
 aliases:
   - "Recall: Triangularization and Hermitian Diagonalization"
 ---
-## Recall
-
 - Each matrix $A \in \mathbb{K}^{n\times n}$ is **triangularizable over $\mathbb{C}$**, i.e., there exists a regular matrix $T \in \mathbb{C}^{n\times n}$ and an upper triangular matrix $U \in \mathbb{C}^{n\times n}$ such that
   $$
   U = T^{-1}AT

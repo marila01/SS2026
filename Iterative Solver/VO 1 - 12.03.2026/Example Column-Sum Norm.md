@@ -2,8 +2,6 @@
 aliases:
   - "Example: Column-Sum Norm"
 ---
-## Example: $\lVert\cdot\rVert_1$ induces the column-sum norm
-
 We consider
 
 $$

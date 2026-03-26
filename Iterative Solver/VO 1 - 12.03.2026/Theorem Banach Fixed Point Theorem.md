@@ -2,7 +2,6 @@
 aliases:
   - "Theorem: Banach Fixed Point Theorem"
 ---
-## Banach Fixed Point Theorem
 (as in [[Theorem 2.2 - Fixpunktsatz von Banach]] but more)
 
 Let $X$ be a Banach space, i.e., a complete normed space. Let $0<q<1$ and let $\Phi : X \to X$ satisfy

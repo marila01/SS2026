@@ -21,4 +21,4 @@ M := I-\lambda A,
 $$
 and $b-Ax$ the so-called residual.
 
-**KNOWN**: iteration converges if $\rho(M) < 1$.
+**KNOWN**: iteration converges if $\rho(M) < 1$ ([[Theorem Global Convergence of Basic Iterative Methods]]]]).

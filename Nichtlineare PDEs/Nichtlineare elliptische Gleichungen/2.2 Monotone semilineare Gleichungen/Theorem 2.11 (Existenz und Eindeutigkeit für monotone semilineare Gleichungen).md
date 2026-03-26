@@ -82,6 +82,134 @@ $$
 Da $\varepsilon > 0$ beliebig, können wir es so wählen, dass $\tilde{\tilde{C}} \frac{\varepsilon}{2}=\frac{\alpha}{4}$ und erhalten
 $$
 \begin{align}
-
+\frac{\alpha}{4}\int_{\Omega}|\nabla u_{v_{k},\sigma_{k}}|^2dx &\leq C_{2}
+||f(.,v_{k})||_{L^q(\Omega)}^2 +C \\
+&\leq C_{2}\left( \underbrace{||C|v_{k}|^{p-1}+h(.)||_{L^q(\Omega)}}_{\leq \left( \int_{\Omega}C|v_{k}|^{(p-1)q}+|h|^qdx \right)^{1/q}} \right)^2+C \\
+&\stackrel{1/p+1/q=1 \implies (p-1)q=p}\leq C_{2} \left( C\int_{\Omega}|v_{k}|^{p}dx + \int_{\Omega}h(x)^qdx \right)^{2/q} + C
 \end{align}
 $$
+Wegen der Poincarè-Ungleichung gilt
+$$
+\begin{align}
+||u_{v_{k},\sigma_{k}}||^2_{H^1(\Omega)}&\leq C ||u_{v_{k},\sigma_{k}-\sigma_{k}g}||_{H^1(\Omega)}^2+C(g,A) \\
+&\leq C ||\nabla(u_{v_{k},\sigma_{k}}-\sigma_{k}g)||^2_{L^2(\Omega)}+C(g,A) \\
+&\leq C||\nabla u_{v_{k},\sigma_{k}}||^2_{L^2(\Omega)}+C(g,A)
+\end{align}
+$$
+Setzt man das oben ein, erhält man Beschränktheit der Folge.
+
+Es gilt zunächst:
+Falls $(v_{k})\subset L^p(\Omega)$ beschränkt ist, gilt wegen oben sofort $\text{sup}_{k}||u_{v_{k},\sigma_{k}}||\leq C< \infty$.
+**ABER:** $H^1(\Omega) \hookrightarrow \hookrightarrow L^p(\Omega)$, daher existiert eine Teilfolge, sodass $(u_{v_{k_{n}},\sigma_{k_{s}}})_{n}$ stark in $L^p(\Omega)$ gegen ein $u^* \in L^p(\Omega)$ konvergiert.
+Daher ist $S$ kompakt.
+
+Extrahiert man eine weitere Teilfolge, so konvergiert diese gegen $u^*$ schwach in $H^1(\Omega)$.
+
+Um zu beweisen, dass $S$ stetig ist, müssen wir zeigen, dass falls $v_{k}\to v$ stark in $L^p(\Omega)$ und $\sigma_{k}\to \sigma$ in $\mathbb{R}$, dann $S(v_{k},\sigma_{k})=u_{v_{k},\sigma_{k}}\to u_{v,\sigma}=S(v,\sigma)$ stark in $L^p(\Omega)$.
+
+Wegen der Kompaktheit wissen wir, dass eine Teilfolge existiert, sodass
+$$
+\begin{cases}
+u_{v_{k_{n}},\sigma_{k_{n}}}\to u^* \text{ stark in }L^p(\Omega) \\
+u_{v_{k_{n}},\sigma_{k_{n}}} \rightharpoonup u^* \text{ schwach in } H^1(\Omega)
+\end{cases}
+$$
+Was fehlt: $u^*=S(v,\lambda)$ und dann [[Uryson-Property]].
+
+Per definitionem und wegen [[Lemma- Stetigkeit Caratheodory-Funktion]] gilt zunächst:
+$$ \forall w \in H_{0}^1(\Omega):
+\int_{\Omega}\underbrace{\nabla u_{v_{k_{n}},\sigma_{k_{n}}}}_{\to \nabla u^* \text{ in } L^2(\Omega)}^T \underbrace{A}_{\in L^\infty(\Omega)}\underbrace{\nabla w}_{\in L^2(\Omega)} + \underbrace{c}_{\in  L ^\infty} \underbrace {u_{v_{k_{n}},\sigma_{k_{n}}}}_{\in L^2(\Omega), \to u^* \in  L^2(\Omega)} \underbrace{w}_{\in L^2(\Omega)}dx=\underbrace{\sigma_{k_{n}}}_{\to \sigma}\int_{\Omega}\underbrace{f(x,v_{k_{n}})}_{\to f(x,v), \text{ wg. Lemma}}wdx
+$$
+Außerdem gilt ja für alle $n$
+$$
+u_{v_{k_{n}},\sigma_{k_{n}}}=\sigma_{k_{n}}g \quad \text{ auf } \partial \Omega.
+$$
+Wegen [[Aufgabe 3]] gilt dann, dass 
+$$
+u_{v,\sigma}=\sigma g \quad \text{ auf } \partial \Omega
+$$
+und wegen der jeweiligen $L^p$-Konvergenzen
+$$
+\forall w \in H_{0}^1(\Omega):\int_{\Omega}(\nabla u^*)^TA\nabla w+cu^*wdx=\sigma \int_{\Omega}f(x,v)wdx
+$$
+Damit ist $u^*$ schwache Lösung von
+$$
+\begin{cases}
+Lu=\sigma f \quad \text{ in } \Omega \\
+u=\sigma g \quad \text{ auf } \partial \Omega
+\end{cases}
+$$
+Das ist ein lineares, elliptisches Problem und somit ist dessen Lösung eindeutig.
+Also gilt $S(v,\sigma)=u^*$.
+Aus [[Uryson-Property]] folgt dann, dass $S$ stetig ist.
+
+**Schritt 3:**
+Nun müssen wir zeigen, dass
+$$
+\{ v \in L^p(\Omega) \quad |\quad S(v,\sigma)= v \text{ für ein } \sigma \in [0,1]\}
+$$
+in $L^p(\Omega)$ beschränkt ist.
+Wir wissen, dass die Lösung dieses Problems eh in $H^1(\Omega)$ liegt, also reicht es, zu überprüfen, dass
+$$
+\{ v \in H^1(\Omega) \quad |\quad S(v,\sigma)= v \text{ für ein } \sigma \in [0,1]\}
+$$
+in $L^p(\Omega)$ ist.
+Sei also $v$ aus dieser Menge, also $v=S(v,\sigma)$ für ein $\sigma \in [0,1]$.
+Wir testen die PDE mit $v-\sigma g\in H_{0}^1(\Omega)$.
+$$
+\int_{\Omega}\nabla v^TA\nabla(v-\sigma g)+cv(v-\sigma g)dx=\int_{\Omega}\sigma f(x,v)(v-\sigma g)dx
+$$
+Mit ähnlichen Umformungen wie oben erhalten wir
+$$
+\begin{align}
+\frac{\alpha}{2}\int_{\Omega}|\nabla u|^2dx&\leq \sigma \int_{\Omega}f(x,v)(v-\sigma g)
+dx+C(A,g,\Omega) \\
+&=\sigma \int_{\Omega}\underbrace{(f(x,v)-f(x,\sigma g))(v-\sigma g)}_{\text{ f monoton:}\leq 0}dx +\sigma \int_{\Omega}f(x,\sigma g)(v-\sigma g)dx+C(A,g,\Omega) \\
+&\leq \sigma \int_{\Omega}f(x,\sigma g)(v-\sigma g)dx+C(A,g,\Omega) \\
+&=\sigma \int_{\Omega}f(x,\sigma g)vdx\underbrace{-\sigma \int_{\Omega}\sigma gf(x,\sigma g)dx}_{\text{konstant}}+C(A,g,\Omega) \\
+&\stackrel{\text{Young, Hölder?}}{\leq} \frac{\varepsilon}{2}||v||^2_{L^p(\Omega)}+ \frac{1}{2 \varepsilon}||f(.,\sigma g)||_{L^q(\Omega)}^2+C(A,g,\Omega,f) \quad \text{ für } \varepsilon>0 \text{ bel.}
+\end{align}
+$$
+Wir erhalten also
+$$
+\frac{\alpha}{2}||\nabla v||^2_{L^2(\Omega)}\leq \tilde{C}(A,f,g,\Omega) + \frac{1}{2 \varepsilon}||f(.,\sigma g)||^2_{L^q(\Omega)}+ \frac{\tilde{\tilde{C}}\varepsilon}{2}||\nabla v||^2_{L^2(\Omega)}
+$$
+Wähle $\varepsilon$ entsprechend, dann gilt
+$$
+\frac{\alpha}{4}||\nabla v||^2_{L^2(\Omega)}\leq C(A,f,g,\Omega).
+$$
+Wenden wir wieder den gleichen Trick mit Poincaré an, erhalten wir
+$$
+\begin{align}
+||v||^2_{L^p(\Omega)}&\leq \hat{\hat{C}}||v-\sigma g||_{L^p(\Omega)}^2+\hat{C}(g,\Omega) \\
+&\leq \bar{C}||v-\sigma g||_{H^1(\Omega)}^2+\hat{C}(g,\Omega) \\
+&\leq \bar{\bar{C}}||\nabla (v-\sigma g)||^2_{L^2(\Omega)^2}+ \hat{C}(g,\Omega) \\
+&\leq \bar{\bar{C}}||\nabla v||^2_{L^2(\Omega)}+ \hat{\bar{C}}(g,\Omega) \\
+&\leq \tilde{\tilde{\tilde{C}}}(A,f,g,\Omega)
+\end{align}
+$$
+Wegen [[Theorem 2.12 (Fixpunktsatz von Leray-Schauder)]] gibt es ein $u \in H^1(\Omega)$ sodass
+$$
+\begin{cases}
+Lu=f(x,u) \quad \text{ in } \Omega \\
+u=g \quad \text{ auf } \partial \Omega.
+\end{cases}
+$$
+**Step 4:**
+Es bleibt zu zeigen, dass die Lösung eindeutig ist.
+Angenommen $u_{1},u_{2}$ sind Lösungen.
+Dann erfüllt $u_{1}-u_{2}$ die folgende PDE
+$$
+\begin{cases}
+L(u_{1}-u_{2})=f(x,u_{1})-f(x,u_{2}) \quad \text{ in } \Omega \\
+u_{1}-u_{2}=0 \quad \text{ auf } \partial \Omega
+\end{cases}
+$$
+Da $u_{1}-u_{2}\in H_{0}^1(\Omega)$, können wir damit testen. Wegen der Monotonie von $f$ gilt
+$$
+0\leq\int_{\Omega}\nabla(u_{1}-u_{2})^TA\nabla(u_{1}-u_{2})+c(u_{1}-u_{2})^2dx = \int_{\Omega}(f(x,u_{1})-f(x,u_{2}))(u_{1}-u_{2})dx\leq 0 
+$$
+Also 
+$$\int_{\Omega}\nabla(u_{1}-u_{2})^TA\nabla(u_{1}-u_{2})+c(u_{1}-u_{2})^2dx=0$$
+und wegen $u_{1}-u_{2} \in H_{0}^1(\Omega)$ folgt
+$||\nabla(u_{1}-u_{2})||_{L^2(\Omega)}=0 \implies u_{1}-u_{2}$ ist konstant und daher $u_{1}-u_{2}=0$.

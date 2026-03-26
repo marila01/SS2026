@@ -3,6 +3,7 @@ Wir ändern im folgenden Abschnitt unsere Strategie und fordern dafür, dass $f$
 
 Wir benötigen dafür einen neuen Fixpunktsatz, wo wir keine konvexe, kompakte Menge mehr konstruieren müssen.
 **Theorem 2.11 (Existenz und Eindeutigkeit für monotone, semilineare Gleichungen 1)**
-![[Theorem 2.12 (Fixpunktsatz von Leray-Schauder)]]
+![[Theorem 2.11 (Existenz und Eindeutigkeit für monotone semilineare Gleichungen)]]
+
 **Theorem 2.12 (Fixpunktsatz von Leray-Schauder)**
 ![[Theorem 2.12 (Fixpunktsatz von Leray-Schauder)]]

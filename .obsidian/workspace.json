@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.2 Monotone semilineare Gleichungen/Theorem 2.11 (Existenz und Eindeutigkeit für monotone semilineare Gleichungen).md",
+                "file": "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.2 Monotone semilineare Gleichungen/Monotone semilineare Gleichungen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Theorem 2.11 (Existenz und Eindeutigkeit für monotone semilineare Gleichungen)"
+              "title": "Monotone semilineare Gleichungen"
             }
           }
         ]
@@ -202,6 +202,9 @@
   },
   "active": "af409f3cda8a3aeb",
   "lastOpenFiles": [
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.2 Monotone semilineare Gleichungen/Theorem 2.11 (Existenz und Eindeutigkeit für monotone semilineare Gleichungen).md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Lemma- Stetigkeit Caratheodory-Funktion.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Kapitel 2.1 - Semilineare elliptische Gleichungen.md",
     "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.2 Monotone semilineare Gleichungen/Theorem 2.12 (Fixpunktsatz von Leray-Schauder).md",
     "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.2 Monotone semilineare Gleichungen/Monotone semilineare Gleichungen.md",
     "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.2 Monotone semilineare Gleichungen/2.2 Monotone semilineare Gleichungen.md",
@@ -225,9 +228,6 @@
     "Iterative Solver/VO 1 - 12.03.2026/Definition Spectrum and Spectral Radius.md",
     "Iterative Solver/VO 1 - 12.03.2026/Example Row-Sum Norm.md",
     "Iterative Solver/VO 1 - 12.03.2026/Recall Triangularization and Hermitian Diagonalization.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Example Column-Sum Norm.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Remark Error Propagation.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Lemma Relative Error Estimate.md",
     "Iterative Solver/VO 3 - 26.03.2026",
     "Fractional Sobolev Spaces",
     "Unbenannt.base",

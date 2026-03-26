@@ -64,3 +64,24 @@ $$
 Unten bekommt man die Ungleichung für $||u_{v_{k},\sigma_{k}}||^2_{H^1(\Omega)}$ aus zweimaligem anwenden von Poincaré.
 Also ist $(u_{v_{k},\sigma_{k}})$ beschränkt in $H^1(\Omega)\hookrightarrow\hookrightarrow L^p(\Omega)$ und hat damit eine stark konvergente Teilfolge in $L^p(\Omega)$.
 Also ist $S$ kompakt.
+
+Nun zeigen wir, dass $S$ stetig in $L^p(\Omega)$ ist.
+Wir starten wieder bei der schwachen Formulierung:
+$$
+\int_{\Omega}\nabla u_{v_{k},\sigma_{k}}^T A\nabla(u_{v_{k},\sigma_{k}}-\sigma_{k}g)+cu_{v_{k},\sigma_{k}}(u_{v_{k},\sigma_{k}}-\sigma_{k}g)dx=\int_{\Omega}\sigma_{k}f(v_{k},x)(u_{v_{k},\sigma_{k}}-\sigma_{k}g)dx$$
+Führen wir (durch Addieren und Subtrahieren) die Terme mit $g$ bzw. $\nabla g$ künstlich ein, erhalten wir durch ein paar Umformungen und wegen der Elliptizität des Problems:
+$$
+\begin{align}
+\frac{\alpha}{2}\int_{\Omega}|\nabla u_{v_{k},\sigma_{k}}|^2dx & \stackrel{\sigma_{k}\in[0,1]}{\leq}C(A,g,\Omega)+\int_{\Omega}|f(x,v_{k})||u_{v_{k},\sigma_{k}}-\sigma_{k}g|dx \\
+& \stackrel{\text{Hölder,Young}}{\leq} \frac{\varepsilon}{2}||u_{v_{k},\sigma_{k}}||^2_{L^p(\Omega)}+\frac{1}{2 \varepsilon}||f(.,v_{k})||^2_{L^q(\Omega)}+C \\
+&\leq C_{1} \frac{\varepsilon}{2} ||u_{v_{k},\sigma_{k}}-\sigma_{k}g||_{L^p(\Omega)}^2 + \underbrace{C \frac{\varepsilon}{2}||g||_{L^p(\Omega)}^2}_{\text{konstant}} + \frac{1}{2\varepsilon}||f(.,v_{k})||_{L^q(\Omega)}^2 +C \\
+& \stackrel{H^1 \hookrightarrow L^p}{\leq} \tilde{C_{1}} \frac{\varepsilon}{2} || \underbrace{u_{v_{k},\sigma_{k}}-\sigma_{k}g}_{\in H_{0}^1(\Omega)}||_{H^1(\Omega)}^2+ \frac{1}{2 \varepsilon}||f(.,v_{k})||_{L^q(\Omega)}^2 +C \\
+& \stackrel{\text{Poincaré}}{\leq} \tilde{\tilde{C}} \frac{\varepsilon}{2}||\nabla u_{v_{k},\sigma_{k}}||_{L^2(\Omega)}^2 + \underbrace{\tilde{\tilde{C}} \frac{\varepsilon}{2}||\sigma_{k}g||_{L^2(\Omega)}^2}_{\text{konstant}}+ \frac{1}{2 \varepsilon}||f(.,v_{k})||_{L^q(\Omega)}^2 + C
+\end{align}
+$$
+Da $\varepsilon > 0$ beliebig, können wir es so wählen, dass $\tilde{\tilde{C}} \frac{\varepsilon}{2}=\frac{\alpha}{4}$ und erhalten
+$$
+\begin{align}
+
+\end{align}
+$$

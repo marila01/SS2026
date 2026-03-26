@@ -49,7 +49,6 @@
     "//Nichtlineare PDEs/Nichtlineare PDEs/Nichtlineare parabolische Gleichungen",
     "//Nichtlineare PDEs/Nichtlineare PDEs/Nichtlineare parabolische Gleichungen/Nichtlineare PDEs/Nichtlineare parabolische Gleichungen/Sobolevräume in Ort und Zeit",
     "//Nichtlineare PDEs/Nichtlineare PDEs/Kapitel 3 Nichtlineare parabolische Gleichungen",
-    "//FANA",
     "//Iterative Solver/Iterative Solver/VO 1",
     "//Nichtlineare PDEs/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.4 Drift-Diffusionsgleichungen",
     "//Nichtlineare PDEs/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.3 Quasilineare Gleichungen",
@@ -57,12 +56,10 @@
     "//Nichtlineare PDEs/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung",
     "//Nichtlineare PDEs/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 1",
     "//Nichtlineare PDEs/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.2 Monotone semilineare Gleichungen",
-    "//Nichtlineare PDEs/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen",
     "//Fractional Sobolev Spaces",
     "//Nichtlineare PDEs/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen",
-    "//Iterative Solver",
-    "//Iterative Solver/Iterative Solver/VO 3 - 26.03.2026",
-    "//Iterative Solver/Iterative Solver/VO 1 - 12.03.2026"
+    "//Iterative Solver/Iterative Solver/VO 1 - 12.03.2026",
+    "//Nichtlineare PDEs"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

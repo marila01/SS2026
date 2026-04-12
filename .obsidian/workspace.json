@@ -13,15 +13,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.2 Monotone semilineare Gleichungen/Monotone semilineare Gleichungen.md",
+                "file": "Iterative Solver/VO 3 - 26.03.2026/VO3 - 26.03.2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Monotone semilineare Gleichungen"
+              "title": "VO3 - 26.03.2026"
+            }
+          },
+          {
+            "id": "0d7cc98cbe093878",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Streu- und Resonanzprobleme/1.3. Helmholtz-Gleichung auf unbeschränkten Gebieten.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1.3. Helmholtz-Gleichung auf unbeschränkten Gebieten"
+            }
+          },
+          {
+            "id": "cb6200eac9235c96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Iterative Solver/VO 3 - 26.03.2026/Example (Jacobi iteration).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Example (Jacobi iteration)"
+            }
+          },
+          {
+            "id": "42ad515fc7b3d5d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Iterative Solver/VO 3 - 26.03.2026/Example (Richardson iteration).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Example (Richardson iteration)"
+            }
+          },
+          {
+            "id": "b333b09efd714d44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Iterative Solver/VO 3 - 26.03.2026/Def. Splitting Method.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Def. Splitting Method"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +132,7 @@
             }
           },
           {
-            "id": "97cffee6666722df",
+            "id": "0a1a9812310546a8",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -200,34 +257,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "af409f3cda8a3aeb",
+  "active": "0d7cc98cbe093878",
   "lastOpenFiles": [
+    "Streu- und Resonanzprobleme/1.2. Helmholtz-Gleichung in beschränkten Gebieten.md",
+    "Streu- und Resonanzprobleme/1.3. Helmholtz-Gleichung auf unbeschränkten Gebieten.md",
+    "Streu- und Resonanzprobleme/1.1. Modellierung zeitharmonischer Druckwellen.md",
+    "Streu- und Resonanzprobleme/Zusammenfassung Kapitel 1.md",
+    "Streu- und Resonanzprobleme/Streu- und Resonanzprobleme.md",
+    "Iterative Solver/VO 3 - 26.03.2026/Example ((forward) Gauss-Seidel iteration).md",
+    "Streu- und Resonanzprobleme",
+    "Untitled.md",
+    "Iterative Solver/VO 3 - 26.03.2026/VO3 - 26.03.2026.md",
+    "Iterative Solver/VO 3 - 26.03.2026/Example (Jacobi iteration).md",
+    "Iterative Solver/VO 3 - 26.03.2026/Example (Richardson iteration).md",
+    "Iterative Solver/VO 3 - 26.03.2026/Def. Splitting Method.md",
+    "Iterative Solver/VO 3 - 26.03.2026/VO 3 - 26.03.2026.md",
+    "Iterative Solver/Iterative Solver.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.2 Monotone semilineare Gleichungen/Monotone semilineare Gleichungen.md",
     "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.2 Monotone semilineare Gleichungen/Theorem 2.11 (Existenz und Eindeutigkeit für monotone semilineare Gleichungen).md",
     "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Lemma- Stetigkeit Caratheodory-Funktion.md",
     "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Kapitel 2.1 - Semilineare elliptische Gleichungen.md",
     "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.2 Monotone semilineare Gleichungen/Theorem 2.12 (Fixpunktsatz von Leray-Schauder).md",
-    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.2 Monotone semilineare Gleichungen/Monotone semilineare Gleichungen.md",
     "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.2 Monotone semilineare Gleichungen/2.2 Monotone semilineare Gleichungen.md",
     "Nichtlineare PDEs/Nichtlineare PDEs.md",
     "FANA/FANA.md",
-    "Iterative Solver/VO 3 - 26.03.2026/VO3 - 26.03.2026.md",
     "Iterative Solver/VO 3 - 26.03.2026/Theorem A diagonally dominant+irreducible = JI & GSI convergent.md",
     "Iterative Solver/VO 3 - 26.03.2026/Corollary diagonnally dominant + irreducible = nonzero diagonal.md",
     "Iterative Solver/VO 3 - 26.03.2026/Lemma diagonally dominant + irreducible = regular.md",
     "Iterative Solver/VO 3 - 26.03.2026/Def. Diagonally Dominant Matrix.md",
     "Iterative Solver/VO 3 - 26.03.2026/Def. Reducible Matrix.md",
-    "Iterative Solver/VO 3 - 26.03.2026/Theorem (Jacobi and Gauss-Seidel for SDD-matrices).md",
-    "Iterative Solver/VO 1 - 12.03.2026/VO1 - 12.03.2026.md",
-    "Iterative Solver/VO 1 - 12.03.2026/VO 1 - 12.03.2026.md",
-    "Iterative Solver/VO 2 - 19.03.2026/VO2 - 19.03.2026.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Example Hermitian Case.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Remark A Posteriori and A Priori Estimates.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Lemma Characterizing the Spectral Radius.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Theorem Banach Fixed Point Theorem.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Example Spectral Norm.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Definition Spectrum and Spectral Radius.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Example Row-Sum Norm.md",
-    "Iterative Solver/VO 1 - 12.03.2026/Recall Triangularization and Hermitian Diagonalization.md",
     "Iterative Solver/VO 3 - 26.03.2026",
     "Fractional Sobolev Spaces",
     "Unbenannt.base",
@@ -247,7 +305,6 @@
     "Iterative Solver/VO 1 - 12.03.2026",
     "Iterative Solver",
     "Tags",
-    "FANA",
     "Nichtlineare PDEs/Untitled.canvas"
   ]
 }

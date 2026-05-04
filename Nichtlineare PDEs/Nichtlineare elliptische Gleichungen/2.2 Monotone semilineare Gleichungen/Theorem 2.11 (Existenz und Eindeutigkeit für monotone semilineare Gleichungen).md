@@ -124,7 +124,7 @@ Außerdem gilt ja für alle $n$
 $$
 u_{v_{k_{n}},\sigma_{k_{n}}}=\sigma_{k_{n}}g \quad \text{ auf } \partial \Omega.
 $$
-Wegen [[Aufgabe 3]] gilt dann, dass 
+Wegen [[Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 1/Aufgabe 3]] gilt dann, dass 
 $$
 u_{v,\sigma}=\sigma g \quad \text{ auf } \partial \Omega
 $$

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Streu- und Resonanzprobleme/1.3. Helmholtz-Gleichung auf unbeschränkten Gebieten.md",
+                "file": "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 2/Aufgabe 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.3. Helmholtz-Gleichung auf unbeschränkten Gebieten"
+              "title": "Aufgabe 3"
             }
           },
           {
@@ -69,16 +69,42 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Iterative Solver/VO 3 - 26.03.2026/Def. Splitting Method.md",
+                "file": "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 2/Aufgabe 4.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Def. Splitting Method"
+              "title": "Aufgabe 4"
+            }
+          },
+          {
+            "id": "c0959ed5e07c5dd7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FANA/Definition Filter.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Definition Filter"
+            }
+          },
+          {
+            "id": "1484738ccc732b87",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-05-04 12.05.06.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-05-04 12.05.06.excalidraw"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -110,7 +136,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kapitel 1",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -132,7 +158,7 @@
             }
           },
           {
-            "id": "0a1a9812310546a8",
+            "id": "f80db97f04e2e047",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -141,8 +167,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -254,57 +279,58 @@
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "0d7cc98cbe093878",
+  "active": "c0959ed5e07c5dd7",
   "lastOpenFiles": [
-    "Streu- und Resonanzprobleme/1.2. Helmholtz-Gleichung in beschränkten Gebieten.md",
-    "Streu- und Resonanzprobleme/1.3. Helmholtz-Gleichung auf unbeschränkten Gebieten.md",
-    "Streu- und Resonanzprobleme/1.1. Modellierung zeitharmonischer Druckwellen.md",
-    "Streu- und Resonanzprobleme/Zusammenfassung Kapitel 1.md",
-    "Streu- und Resonanzprobleme/Streu- und Resonanzprobleme.md",
-    "Iterative Solver/VO 3 - 26.03.2026/Example ((forward) Gauss-Seidel iteration).md",
-    "Streu- und Resonanzprobleme",
-    "Untitled.md",
-    "Iterative Solver/VO 3 - 26.03.2026/VO3 - 26.03.2026.md",
-    "Iterative Solver/VO 3 - 26.03.2026/Example (Jacobi iteration).md",
-    "Iterative Solver/VO 3 - 26.03.2026/Example (Richardson iteration).md",
-    "Iterative Solver/VO 3 - 26.03.2026/Def. Splitting Method.md",
-    "Iterative Solver/VO 3 - 26.03.2026/VO 3 - 26.03.2026.md",
-    "Iterative Solver/Iterative Solver.md",
-    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.2 Monotone semilineare Gleichungen/Monotone semilineare Gleichungen.md",
-    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.2 Monotone semilineare Gleichungen/Theorem 2.11 (Existenz und Eindeutigkeit für monotone semilineare Gleichungen).md",
-    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Lemma- Stetigkeit Caratheodory-Funktion.md",
-    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.1 Semilineare Gleichungen/Kapitel 2.1 - Semilineare elliptische Gleichungen.md",
-    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.2 Monotone semilineare Gleichungen/Theorem 2.12 (Fixpunktsatz von Leray-Schauder).md",
-    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/2.2 Monotone semilineare Gleichungen/2.2 Monotone semilineare Gleichungen.md",
-    "Nichtlineare PDEs/Nichtlineare PDEs.md",
+    "FANA/1.4.4 Proposition.md",
+    "FANA/1.4.3 Beispiel (Quotiententopologie).md",
+    "FANA/1.4.1 Satz.md",
+    "FANA/1.3.6 Proposition.md",
+    "FANA/1.3.5 Definition (Filterkonvergenz).md",
+    "FANA/1.3.4 Lemma.md",
+    "FANA/1.3.3 Lemma.md",
+    "FANA/1.3.2 Definition (Ultrafilter).md",
+    "FANA/1.3.1 Satz (von Tychonoff).md",
+    "FANA/1.1.4 Satz.md",
+    "FANA/1.1.3 Korollar.md",
+    "FANA/1.1.2 Definition.md",
+    "FANA/1.1.1 Satz.md",
+    "Excalidraw/Drawing 2026-05-04 12.05.06.excalidraw.md",
+    "Unbenannt 1.base",
+    "Unbenannt.base",
+    "FANA/Definition Filter.md",
     "FANA/FANA.md",
-    "Iterative Solver/VO 3 - 26.03.2026/Theorem A diagonally dominant+irreducible = JI & GSI convergent.md",
-    "Iterative Solver/VO 3 - 26.03.2026/Corollary diagonnally dominant + irreducible = nonzero diagonal.md",
-    "Iterative Solver/VO 3 - 26.03.2026/Lemma diagonally dominant + irreducible = regular.md",
-    "Iterative Solver/VO 3 - 26.03.2026/Def. Diagonally Dominant Matrix.md",
-    "Iterative Solver/VO 3 - 26.03.2026/Def. Reducible Matrix.md",
+    "Bilder/Pasted image 20260414210225.png",
+    "FANA",
+    "Bilder/Pasted image 20260414210310.png",
+    "Unbenannt.md",
+    "Iterative Solver/VO 5 - 23.03.2026.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 1/Aufgabe 1.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 1/Aufgabe 2.md",
+    "Iterative Solver/VO 4 - 16.04.2026.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 2/Aufgabe 3.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 2/Aufgabe 4.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 2/Aufgabe 2.md",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Nichtlineare elliptische Gleichungen.md",
+    "Bilder/Pasted image 20260414232548.png",
+    "Bilder/Pasted image 20260414223941.png",
+    "Bilder/Pasted image 20260414221705.png",
+    "Bilder/Pasted image 20260414221433.png",
+    "Bilder/Pasted image 20260414221413.png",
+    "Iterative Solver/VO 3 - 26.03.2026/Def. Splitting Method.md",
+    "Bilder/Pasted image 20260414211835.png",
+    "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 2",
+    "Streu- und Resonanzprobleme",
     "Iterative Solver/VO 3 - 26.03.2026",
     "Fractional Sobolev Spaces",
-    "Unbenannt.base",
     "Bilder/Pasted image 20260317140110.png",
     "Bilder/Pasted image 20260317140521.png",
-    "Bilder/Pasted image 20260319153954.png",
     "Iterative Solver/VO 2 - 19.03.2026",
-    "Nichtlineare PDEs/cara1.png",
-    "Bilder/Pasted image 20260317162957.png",
-    "Bilder/Pasted image 20260317162711.png",
-    "Bilder/Pasted image 20260317154409.png",
-    "Bilder/Pasted image 20260316200851.png",
-    "Bilder/Pasted image 20260316200838.png",
     "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 1",
     "Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung",
-    "Bilder/Pasted image 20260313122919.png",
-    "Iterative Solver/VO 1 - 12.03.2026",
-    "Iterative Solver",
-    "Tags",
     "Nichtlineare PDEs/Untitled.canvas"
   ]
 }

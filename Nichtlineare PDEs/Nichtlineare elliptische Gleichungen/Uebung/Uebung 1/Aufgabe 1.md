@@ -3,7 +3,7 @@ With the same notation as in [[Theorem 2.3 - Fixpunktsatz von Schauder]], show t
 2. $F_{j}\circ S|_{K_{j}}:K_{j}\to K_{j}$ is continuous.
 
 ##### Solution:
-Let $x \in K$, $i=1,\dots,N_{j}$.
+Let $x_{i} \in K$, $i=1,\dots,N_{j}$.
 Let $\tilde{\lambda_{i}}(x):=d\left( x,K\setminus B_{\frac{1}{j}}(x_{i}) \right)\geq 0$.
 We know from ANA 1 UE 11 Aufgabe 6, that for $x \in K$:
 $d\left( x,K\setminus B_{\frac{1}{j}}(x_{i}) \right)=0 \iff x \in K \setminus B_{\frac{1}{j}}(x_{i})$, because $K \setminus B_{\frac{1}{j}}(x_{i})$ is closed and nonempty and $\{ x \}$ is compact and nonempty. 

@@ -21,7 +21,7 @@ $$
 Wenn $u \in H^1(\Omega)$, dann ist die L.H.S. wohldefiniert.
 Ob die R.H.S. wohldefiniert ist, ist zunächst nicht klar.
 Zu zeigen wäre:
-- $f(x,u(x))v$ ist messbar. (siehe [[Aufgabe 2]])
+- $f(x,u(x))v$ ist messbar. (siehe [[Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 1/Aufgabe 2]])
 - $f(x,u(x))v \in L^1(\Omega)$.
 Ersteres ist Übungsaufgabe.
 Zweiteres gilt, da
@@ -136,7 +136,7 @@ Der Integrand ist in $L^2$ und konvergiert für $k \to \infty$ gegen $\int_{\Ome
 > $$
 > \forall w\in H_{0}^1(\Omega):\int_{\Omega}\nabla u^*A\nabla +cu^*wdx=\int_{\Omega}f(x,v)wdx
 > $$
-> **Falls** wir zusätzlich wüssten ([[Aufgabe 3]], wir verwenden, dass der Trace-Operator $\gamma:H^1(\Omega)\to L^2(\Omega)$ stark stetig in $L^2(\Omega)$ w.r.t. schwachen Konvergenz in $H^1(\Omega)$ ist.) , dass $u_{v_{k_{n}}}=g$ auf $\partial \Omega$ $\implies u^*=g$ auf $\partial \Omega$, wüssten wir $S(v)=u^*$
+> **Falls** wir zusätzlich wüssten ([[Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 1/Aufgabe 3]], wir verwenden, dass der Trace-Operator $\gamma:H^1(\Omega)\to L^2(\Omega)$ stark stetig in $L^2(\Omega)$ w.r.t. schwachen Konvergenz in $H^1(\Omega)$ ist.) , dass $u_{v_{k_{n}}}=g$ auf $\partial \Omega$ $\implies u^*=g$ auf $\partial \Omega$, wüssten wir $S(v)=u^*$
 > und wären somit fertig
 > ![[Pasted image 20260313122614.png]]
 >

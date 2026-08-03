@@ -38,7 +38,6 @@
   "vaultSelector": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/",
     "//Bachelorarbeit",
     "//Variationsrechnung/Variationsrechnung/Kapitel 1",
     "//Variationsrechnung/Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Variationsrechnung/Kapitel 2 - Euler-Lagrange Gleichungen/Die Legendre-Hadamard-Bedingung",
@@ -57,7 +56,14 @@
     "//Nichtlineare PDEs/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Uebung/Uebung 2",
     "//Nichtlineare PDEs/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen",
     "//Nichtlineare PDEs/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/Nichtlineare PDEs/Nichtlineare elliptische Gleichungen/ue4",
-    "//FANA"
+    "/",
+    "//Fractional Sobolev Spaces",
+    "//FANA",
+    "//Nichtlineare PDEs",
+    "//W26",
+    "//FANA für TM/FANA für TM/Satz vom abgeschlossenen Bild",
+    "//FANA für TM",
+    "//FANA für TM/FANA für TM/Spktralmaße"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
